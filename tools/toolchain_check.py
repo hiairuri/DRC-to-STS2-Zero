@@ -112,7 +112,7 @@ ENV_RE = re.compile(r'^[Dd]:[\\/](Tools|Program)[\\/]?|steam', re.I)
 scripts = sorted(TOOLS.glob('*.py'))
 # 2026-10-16：LingChar / MirrorPupil 两 spike 已由旧树（仓库外）迁入本树，
 # 构建脚本随之改为树内路径（旧 AbsMod 前缀引用已全部撤销）。
-bl = ROOT / 'spikes' / 'LingChar' / 'build_lingchar.py'
+bl = ROOT / 'sts2_work' / 'source' / 'LingChar' / 'build_lingchar.py'
 if bl.exists():
     scripts.append(bl)
 

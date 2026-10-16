@@ -46,3 +46,12 @@ __pycache__/
 
 # ---- 条目61收尾：LingChar 嵌套仓（ModForge 时代）历史备份（外置，不入主仓）----
 spikes/_lingchar_git_history_backup/
+
+# ---- 条目 62：spike 源码树迁至 sts2_work/source/ 后的构建产物忽略 ----
+sts2_work/source/LingChar/bin/
+sts2_work/source/LingChar/obj/
+sts2_work/source/MirrorPupil/bin/
+sts2_work/source/MirrorPupil/obj/
+sts2_work/source/LingChar/pcksrc_old_*/
+sts2_work/source/LingChar/icon_import_scratch/
+sts2_work/source/LingChar/scratch_old_*/

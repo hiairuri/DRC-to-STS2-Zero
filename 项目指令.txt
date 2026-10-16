@@ -17,8 +17,8 @@
 
 目录布局（2026-10-16 下午用户重组后）：
 工作树 D:\项目\dragonraja（git 仓，现状树）
-构建工程 D:\项目\dragonraja\spikes\LingChar（含影子源码存档 ShadowSource_Archived.cs）
-镜瞳 spike D:\项目\dragonraja\spikes\MirrorPupil（源码级被 LingChar.csproj 包含）
+构建工程 D:\项目\dragonraja\sts2_work\source\LingChar（含影子源码存档 ShadowSource_Archived.cs；2026-10-16 晚自 spikes/ 迁入）
+镜瞳 spike D:\项目\dragonraja\sts2_work\source\MirrorPupil（源码级被 LingChar.csproj 包含）
 sts2_work\source\ = 皮肤源树（LingSilentSkin_battle/_mod，仅作 LingChar 素材来源）
                   + silentfx（SilentFX 反编译 C# 全源，357 文件）
 sts2_work\note\silentfx\ = SilentFX 深度挖掘 13 份报告（00_挖掘总报告.md 为入口，已只读）
@@ -46,13 +46,13 @@ Spine 运行时 = 自研 spine-godot 4.2.43。
 
 【构建与验证】
 
-- 角色：cd D:\项目\dragonraja\spikes\LingChar && python build_lingchar.py（装配→dotnet→打包→安装）
+- 角色：cd D:\项目\dragonraja\sts2_work\source\LingChar && python build_lingchar.py（装配→dotnet→打包→安装）
   （皮肤源树素材现已指向 sts2_work\source\LingSilentSkin_battle\pcksrc；皮肤 mod 构建链退役）
 - 重跑构建前必须先 mv icon_import_scratch scratch_old_<ts>：否则 Mimosa safe-delete 钩子拦
   rmtree（count>50）会让脚本静默中断（2026-10-16 已复现）。
 - 产物基线 sha256（2026-10-16 条目 61 废案重建后刷新；重建应逐字节复现）：
-  LingChar.pck d7be69ff…（22,920,063B / 102 条；包内校验 drc_dye/hitfx/attack_fx 零残留）
-  LingChar.dll 559b231c…（49,152B；DyeFramework/攻击/命中代码已剥离）
+  LingChar.pck e56ba8ab…（22,921,936B / 110 条=102+8 存根；条目 62 spine 烘焙路径 remap 存根；包内校验 drc_dye/hitfx/attack_fx 零残留）
+  LingChar.dll 8a1780d0…（49,152B；DyeFramework/攻击/命中代码已剥离）
   LingChar.json dd76bd33…（472B，未变）
   历史基线（已作废，仅供归因）：pck 3ea68992…/44460388…、dll 17ca0e61…/ee52017e…、
   LingSilentSkin.pck 7f751f11…（皮肤 mod 退役，pck 仍在 source 树作素材源）。

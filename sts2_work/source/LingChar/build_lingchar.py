@@ -523,6 +523,89 @@ animation_mixes = [SubResource("SpineAnimationMix_mhurt1"), SubResource("SpineAn
     assert 'position = Vector2(16, -21)' in text and 'scale = Vector2(0.29, 0.29)' in text, 'mirror 1:1 override missing'
 
 
+def fix_spine_baked_paths() -> None:
+    """条目 62（2026-10-16）：皮肤 mod 退役后的运行时自持修复。
+
+    病根：从皮肤树原样复制的 SpineAtlasResource 产品（.spatlas）在导入时把
+    「atlas 自路径 / 贴图页绝对路径」烘焙进了二进制（皮肤树里资产位于
+    animations/*/silent/）。旧架构运行期靠 LingSilentSkin.pck 挂载同路径
+    资产兜底；皮肤退役后这些路径全部失效 → spine 拿到空纹理 → 选人界面
+    原生崩溃（sentry native fatal，GodotSpineTextureLoader::load）。
+
+    修复：扫描全部 .spatlas/.spjson 产品内烘焙的 /animations/.../silent/
+    绝对路径，在 pcksrc 对应原路径写 remap 存根（.import，不含源文件），
+    指向 ling/ 同名资产已被 relocate 重命名的现有产品 —— 零资产复制、
+    零产品改动、全部 relocate 家族（选人/战斗/镜像/商人/篝火）自动覆盖。
+    """
+    import re as _re3
+    imported = PCKSRC / '.godot/imported'
+    # 1) 现有 remap 表：资产路径(无 .import 后缀) -> (importer, type, product)
+    remaps = {}
+    for imp in PCKSRC.rglob('*.import'):
+        text = imp.read_text(encoding='utf-8', errors='replace')
+        m_p = _re3.search(r'path="(res://\.godot/imported/[^"]+)"', text)
+        m_i = _re3.search(r'importer="([^"]+)"', text)
+        m_t = _re3.search(r'type="([^"]+)"', text)
+        if m_p and m_i and m_t:
+            remaps[str(imp.relative_to(PCKSRC)).replace('\\', '/')[:-len('.import')]] = \
+                (m_i.group(1), m_t.group(1), m_p.group(1))
+    # 2) 逐产品扫描烘焙的完整自路径——正则必须保留「ling/」等可选前缀
+    #    （条目 62 v2：战斗产品烘焙的是带前缀混合路径 ling/animations/characters/silent/，
+    #      v1 正则从 /animations 起截取丢失前缀，导致战斗链存根写错位置）
+    baked = set()
+    for prod in imported.glob('*.spatlas'):
+        blob = prod.read_bytes()
+        for m in _re3.finditer(rb'[\w\-./]*animations/[A-Za-z0-9_/\-.]+\.(?:atlas|png)', blob):
+            baked.add(m.group(0).decode('ascii', 'ignore').lstrip('/'))
+    # 3) 逐条写 remap 存根：silent 原路径 -> ling 同名资产的现有产品
+    #    3a) atlas 自路径存根；3b) 页纹理存根（运行时用「烘焙自路径目录+页名」拼页路径）
+    written = 0
+
+    def _write_stub(asset_path: str) -> bool:
+        nonlocal written
+        stub = PCKSRC / (asset_path + '.import')
+        if stub.exists():
+            return False
+        candidates = [asset_path.replace('/silent/', '/ling/'),
+                      'ling/' + asset_path.replace('/silent/', '/ling/')]
+        ling = next((c for c in candidates if c in remaps), None)
+        if ling is None:
+            DevWarn(f'baked path 无 ling 对应，跳过: {asset_path}')
+            return False
+        importer, typ, product = remaps[ling]
+        stub.parent.mkdir(parents=True, exist_ok=True)
+        stub.write_text(
+            '[remap]\n\n'
+            f'importer="{importer}"\n'
+            f'type="{typ}"\n'
+            f'path="{product}"\n',
+            encoding='utf-8')
+        written += 1
+        return True
+
+    for p in sorted(baked):
+        _write_stub(p)
+        # 3b) 页纹理：ling 侧 atlas 源文本解析页名（页名行 = 紧跟 size: 的行）
+        candidates = [p.replace('/silent/', '/ling/'),
+                      'ling/' + p.replace('/silent/', '/ling/')]
+        ling_atlas = next((c for c in candidates if c in remaps and c.endswith('.atlas')), None)
+        if ling_atlas is None:
+            continue
+        atlas_src = PCKSRC / ling_atlas
+        if not atlas_src.exists():
+            continue
+        lines = atlas_src.read_text(encoding='utf-8', errors='replace').splitlines()
+        silent_dir = p.rsplit('/', 1)[0]
+        for i, ln in enumerate(lines[:-1]):
+            if lines[i + 1].startswith('size:') and ln.strip() and not ln.startswith(' '):
+                _write_stub(silent_dir + '/' + ln.strip())
+    print(f'spine baked-path stubs: scanned={len(baked)} written={written}')
+
+
+def DevWarn(msg: str) -> None:
+    print('WARN:', msg)
+
+
 def pack() -> None:
     sys.path.insert(0, str(DR_ROOT / 'tools'))
     import pck_writer
@@ -555,6 +638,7 @@ def install() -> None:
 
 if __name__ == '__main__':
     assemble()
+    fix_spine_baked_paths()
     build_dll()
     pack()
     install()

@@ -5,7 +5,7 @@
     "DR": "D:/项目/dragonraja",
     "MF": "D:/ModForge"
   },
-  "bundle_layout": "<dest>/项目/dragonraja/... 单树即自足（2026-10-16 迁移后）：LingChar 与 MirrorPupil 两 spike 已由 ModForge/spikes/ 迁入 项目/dragonraja/spikes/（条目 61：DyeFramework 已废案删除，影子源码存档 LingChar/ShadowSource_Archived.cs 只读不编译）；旧 MF 根仅余 ArtProbe / P0Minimal（与本树无关）。中文目录名 项目 仍不可改（既有脚本与历史文档均按该名定位）",
+  "bundle_layout": "<dest>/项目/dragonraja/... 单树即自足（2026-10-16 迁移后）：两 spike 源码树现位于 项目/dragonraja/sts2_work/source/{LingChar,MirrorPupil}（2026-10-16 晚用户迁移；条目 61：DyeFramework 已废案删除，影子源码存档随树迁移）；旧 MF 根仅余 ArtProbe / P0Minimal（与本树无关）。中文目录名 项目 仍不可改（既有脚本与历史文档均按该名定位）",
   "tiers": {
     "1": "必须：重建 LingChar + LingSilentSkin 两个 mod、延续既有研究链的最小集",
     "2": "高价值：研究输入/参考库（可重生成但耗时、或依赖旧版本文件）",
@@ -19,14 +19,14 @@
       "note": "皮肤 mod 最终产物（与已安装 Mods/LingSilentSkin 逐字节一致）"
     },
     {
-      "dst": "项目/dragonraja/spikes/LingChar/LingChar.pck",
-      "sha256": "d7be69ff886010b8155365ea24d9015508f32ad3b033e4d4de9887315567e272",
+      "dst": "项目/dragonraja/sts2_work/source/LingChar/LingChar.pck",
+      "sha256": "232624f8074be84f1e63d7f526c11748e4a020e72430527a7e62073cf8860d6a",
       "size": 24179275,
       "note": "角色 mod 最终 pck（227 条，去污染架构产物）；2026-10-16 spike 入树后重建重基线（与条目 59 逐字节相同⇒搬运零影响；与已安装 Mods/LingChar 逐字节一致）"
     },
     {
-      "dst": "项目/dragonraja/spikes/LingChar/bin/Release/net9.0/LingChar.dll",
-      "sha256": "559b231ce074ab4773e97a21cef6a5cf904432ec1d507d089cdd25c41bb56368",
+      "dst": "项目/dragonraja/sts2_work/source/LingChar/bin/Release/net9.0/LingChar.dll",
+      "sha256": "8a1780d031372d165618ae924766ac07fd151335a5f735e7e187fd391007a555",
       "size": 138240,
       "note": "角色 mod 最终 dll（MirrorPupil + Harmony patches；DyeFramework 已随条目 61 废案删除，重建后重基线）"
     }
@@ -268,9 +268,9 @@
     {
       "tier": 1,
       "root": "DR",
-      "rel": "spikes/LingChar",
+      "rel": "sts2_work/source/LingChar",
       "kind": "dir",
-      "dst": "项目/dragonraja/spikes/LingChar",
+      "dst": "项目/dragonraja/sts2_work/source/LingChar",
       "exclude": [
         "obj",
         "icon_import_scratch"
@@ -280,9 +280,9 @@
     {
       "tier": 1,
       "root": "DR",
-      "rel": "spikes/MirrorPupil",
+      "rel": "sts2_work/source/MirrorPupil",
       "kind": "dir",
-      "dst": "项目/dragonraja/spikes/MirrorPupil",
+      "dst": "项目/dragonraja/sts2_work/source/MirrorPupil",
       "exclude": [
         "obj",
         "bin"
@@ -764,42 +764,42 @@
   ],
   "path_edits_after_migration": [
     {
-      "file": "ModForge/spikes/LingChar/build_lingchar.py",
+      "file": "ModForge/sts2_work/source/LingChar/build_lingchar.py",
       "line": 28,
       "const": "DR_ROOT",
       "cur": "D:\\项目\\dragonraja",
       "to": "新 <dest>/项目/dragonraja"
     },
     {
-      "file": "ModForge/spikes/LingChar/build_lingchar.py",
+      "file": "ModForge/sts2_work/source/LingChar/build_lingchar.py",
       "line": 32,
       "const": "GAME",
       "cur": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2",
       "to": "目标机 Steam 安装位"
     },
     {
-      "file": "ModForge/spikes/LingChar/build_lingchar.py",
+      "file": "ModForge/sts2_work/source/LingChar/build_lingchar.py",
       "line": 338,
       "const": "GODOT",
       "cur": "D:/Tools/Godot/Godot_v4.7.2-stable_mono_win64_console.exe",
       "to": "目标机 Godot 4.7.2 mono console 路径"
     },
     {
-      "file": "ModForge/spikes/LingChar/build_lingchar.py",
+      "file": "ModForge/sts2_work/source/LingChar/build_lingchar.py",
       "line": 404,
       "const": "spike_loc",
-      "cur": "旧树外绝对路径 D:/ModForge/spikes/MirrorPupil/loc/localization",
+      "cur": "旧树外绝对路径 D:/ModForge/sts2_work/source/MirrorPupil/loc/localization",
       "to": "2026-10-16 已改：同级相对引用 ROOT.parent/'MirrorPupil/loc/localization'"
     },
     {
-      "file": "ModForge/spikes/LingChar/build_lingchar.py",
+      "file": "ModForge/sts2_work/source/LingChar/build_lingchar.py",
       "line": 410,
       "const": "mirror_fx",
-      "cur": "旧树外绝对路径 D:/ModForge/spikes/MirrorPupil/pcksrc/effects/mirror",
+      "cur": "旧树外绝对路径 D:/ModForge/sts2_work/source/MirrorPupil/pcksrc/effects/mirror",
       "to": "2026-10-16 已改：同级相对引用 ROOT.parent/'MirrorPupil/pcksrc/effects/mirror'"
     },
     {
-      "file": "ModForge/spikes/LingChar/LingChar.csproj",
+      "file": "ModForge/sts2_work/source/LingChar/LingChar.csproj",
       "line": 12,
       "const": "GameAssemblyDir",
       "cur": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\data_sts2_windows_x86_64",
@@ -890,7 +890,7 @@
       "部署：copy LingSilentSkin_mod/LingSilentSkin.json + LingSilentSkin.pck → <游戏>/Mods/LingSilentSkin/"
     ],
     "lingchar_mod": [
-      "cd <dest>/项目/dragonraja/spikes/LingChar",
+      "cd <dest>/项目/dragonraja/sts2_work/source/LingChar",
       "python build_lingchar.py   # 装配 pcksrc → dotnet 编译 → 打包 → 安装到 Mods/LingChar",
       "→ LingChar.pck sha256 应=44460388f28eeb14bac22f3838d582d7ee9945adfc6f2fce1d4c321072c6f774；bin/Release/net9.0/LingChar.dll sha256 应=ee52017e3b5db60359906474f1d6e342ed18c279ed5f47b63c787279597daaa9"
     ],
