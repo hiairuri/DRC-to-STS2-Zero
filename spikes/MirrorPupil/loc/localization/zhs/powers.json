@@ -1,0 +1,6 @@
+{
+  "PUPIL_MARK_POWER.title": "瞳印",
+  "PUPIL_MARK_POWER.description": "言灵·镜瞳的印记。每次打出牌时1d100≤层数：成功后镜像召唤1；若此牌为攻击牌，则再次打出此牌，伤害来源视为镜像。随后层数减少。",
+  "MIRROR_SHATTER_POWER.title": "镜为你碎",
+  "MIRROR_SHATTER_POWER.description": "镜像替你承受所有未被格挡的攻击伤害。"
+}

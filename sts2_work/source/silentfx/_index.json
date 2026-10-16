@@ -1,0 +1,3206 @@
+[
+ {
+  "namespace": "SilentFX",
+  "type": "DevLog",
+  "kind": "class",
+  "file": "SilentFX.DevLog.cs",
+  "lines": 110,
+  "src_start": 101,
+  "src_end": 210
+ },
+ {
+  "namespace": "SilentFX",
+  "type": "Entry",
+  "kind": "class",
+  "file": "SilentFX.Entry.cs",
+  "lines": 108,
+  "src_start": 211,
+  "src_end": 318
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "AccelerantFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.AccelerantFx.cs",
+  "lines": 534,
+  "src_start": 319,
+  "src_end": 852
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "AccuracyFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.AccuracyFx.cs",
+  "lines": 784,
+  "src_start": 853,
+  "src_end": 1636
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "AfterimageFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.AfterimageFx.cs",
+  "lines": 317,
+  "src_start": 1637,
+  "src_end": 1953
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "BasicPowerFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.BasicPowerFx.cs",
+  "lines": 246,
+  "src_start": 1954,
+  "src_end": 2199
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "BlurHazeFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.BlurHazeFx.cs",
+  "lines": 62,
+  "src_start": 2200,
+  "src_end": 2261
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "RollEchoFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.RollEchoFx.cs",
+  "lines": 144,
+  "src_start": 2262,
+  "src_end": 2405
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "BurstFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.BurstFx.cs",
+  "lines": 2063,
+  "src_start": 2406,
+  "src_end": 4468
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ConcoctFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.ConcoctFx.cs",
+  "lines": 176,
+  "src_start": 4469,
+  "src_end": 4644
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "CorrosiveWaveFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.CorrosiveWaveFx.cs",
+  "lines": 876,
+  "src_start": 4645,
+  "src_end": 5520
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "EnvenomFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.EnvenomFx.cs",
+  "lines": 457,
+  "src_start": 5521,
+  "src_end": 5977
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "FigureCopy",
+  "kind": "class",
+  "file": "SilentFX.Powers.FigureCopy.cs",
+  "lines": 290,
+  "src_start": 5978,
+  "src_end": 6267
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "FxTarget",
+  "kind": "class",
+  "file": "SilentFX.Powers.FxTarget.cs",
+  "lines": 18,
+  "src_start": 6268,
+  "src_end": 6285
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "FxAnchor",
+  "kind": "class",
+  "file": "SilentFX.Powers.FxAnchor.cs",
+  "lines": 110,
+  "src_start": 6286,
+  "src_end": 6395
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "InfiniteBladesFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.InfiniteBladesFx.cs",
+  "lines": 717,
+  "src_start": 6396,
+  "src_end": 7112
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "IntangibleFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.IntangibleFx.cs",
+  "lines": 162,
+  "src_start": 7113,
+  "src_end": 7274
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "MasterPlannerFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.MasterPlannerFx.cs",
+  "lines": 2053,
+  "src_start": 7275,
+  "src_end": 9327
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "FogKit",
+  "kind": "class",
+  "file": "SilentFX.Powers.FogKit.cs",
+  "lines": 90,
+  "src_start": 9328,
+  "src_end": 9417
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "NoxiousFumesFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.NoxiousFumesFx.cs",
+  "lines": 698,
+  "src_start": 9418,
+  "src_end": 10115
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "PhantomBladesFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.PhantomBladesFx.cs",
+  "lines": 1277,
+  "src_start": 10116,
+  "src_end": 11392
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "PoisonFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.PoisonFx.cs",
+  "lines": 314,
+  "src_start": 11393,
+  "src_end": 11706
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "PowerFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.PowerFx.cs",
+  "lines": 24,
+  "src_start": 11707,
+  "src_end": 11730
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "PowerFxManager",
+  "kind": "class",
+  "file": "SilentFX.Powers.PowerFxManager.cs",
+  "lines": 644,
+  "src_start": 11731,
+  "src_end": 12374
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ShadowmeldFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.ShadowmeldFx.cs",
+  "lines": 197,
+  "src_start": 12375,
+  "src_end": 12571
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ShadowPresence",
+  "kind": "class",
+  "file": "SilentFX.Powers.ShadowPresence.cs",
+  "lines": 376,
+  "src_start": 12572,
+  "src_end": 12947
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ShadowPoolFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.ShadowPoolFx.cs",
+  "lines": 113,
+  "src_start": 12948,
+  "src_end": 13060
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ShadowTwinFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.ShadowTwinFx.cs",
+  "lines": 426,
+  "src_start": 13061,
+  "src_end": 13486
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "TheHuntTrophyFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.TheHuntTrophyFx.cs",
+  "lines": 25,
+  "src_start": 13487,
+  "src_end": 13511
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "SneakyFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.SneakyFx.cs",
+  "lines": 218,
+  "src_start": 13512,
+  "src_end": 13729
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "SpeedsterFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.SpeedsterFx.cs",
+  "lines": 378,
+  "src_start": 13730,
+  "src_end": 14107
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "StrangleGripFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.StrangleGripFx.cs",
+  "lines": 493,
+  "src_start": 14108,
+  "src_end": 14600
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ThornsFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.ThornsFx.cs",
+  "lines": 691,
+  "src_start": 14601,
+  "src_end": 15291
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "ToolsFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.ToolsFx.cs",
+  "lines": 3306,
+  "src_start": 15292,
+  "src_end": 18597
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "TrackingFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.TrackingFx.cs",
+  "lines": 588,
+  "src_start": 18598,
+  "src_end": 19185
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "WellLaidPlansFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.WellLaidPlansFx.cs",
+  "lines": 90,
+  "src_start": 19186,
+  "src_end": 19275
+ },
+ {
+  "namespace": "SilentFX.Powers",
+  "type": "WraithFormFx",
+  "kind": "class",
+  "file": "SilentFX.Powers.WraithFormFx.cs",
+  "lines": 174,
+  "src_start": 19276,
+  "src_end": 19449
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AimMessageTypesPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AimMessageTypesPatch.cs",
+  "lines": 8,
+  "src_start": 19450,
+  "src_end": 19457
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AimVersionPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AimVersionPatch.cs",
+  "lines": 18,
+  "src_start": 19458,
+  "src_end": 19475
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AimHostHandshakePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AimHostHandshakePatch.cs",
+  "lines": 18,
+  "src_start": 19476,
+  "src_end": 19493
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AimHostServicePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AimHostServicePatch.cs",
+  "lines": 18,
+  "src_start": 19494,
+  "src_end": 19511
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AimClientServicePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AimClientServicePatch.cs",
+  "lines": 18,
+  "src_start": 19512,
+  "src_end": 19529
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "MouseAimSessionPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.MouseAimSessionPatch.cs",
+  "lines": 8,
+  "src_start": 19530,
+  "src_end": 19537
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ControllerAimSessionPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ControllerAimSessionPatch.cs",
+  "lines": 8,
+  "src_start": 19538,
+  "src_end": 19545
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "LocalAimHoverPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.LocalAimHoverPatch.cs",
+  "lines": 8,
+  "src_start": 19546,
+  "src_end": 19553
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "LocalAimUnhoverPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.LocalAimUnhoverPatch.cs",
+  "lines": 8,
+  "src_start": 19554,
+  "src_end": 19561
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "LocalAimCleanupPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.LocalAimCleanupPatch.cs",
+  "lines": 7,
+  "src_start": 19562,
+  "src_end": 19568
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AttackFeedPatches",
+  "kind": "class",
+  "file": "SilentFX.Patches.AttackFeedPatches.cs",
+  "lines": 222,
+  "src_start": 19569,
+  "src_end": 19790
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeHooks",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeHooks.cs",
+  "lines": 174,
+  "src_start": 19791,
+  "src_end": 19964
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeSlashPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeSlashPatch.cs",
+  "lines": 19,
+  "src_start": 19965,
+  "src_end": 19983
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeIconHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeIconHoldPatch.cs",
+  "lines": 42,
+  "src_start": 19984,
+  "src_end": 20025
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeRemovedCoverPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeRemovedCoverPatch.cs",
+  "lines": 40,
+  "src_start": 20026,
+  "src_end": 20065
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeAppliedCoverPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeAppliedCoverPatch.cs",
+  "lines": 40,
+  "src_start": 20066,
+  "src_end": 20105
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeAppliedWindowPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeAppliedWindowPatch.cs",
+  "lines": 59,
+  "src_start": 20106,
+  "src_end": 20164
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ExposeAppliedGlowCoverPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ExposeAppliedGlowCoverPatch.cs",
+  "lines": 46,
+  "src_start": 20165,
+  "src_end": 20210
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "DeathHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.DeathHoldPatch.cs",
+  "lines": 25,
+  "src_start": 20211,
+  "src_end": 20235
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HealthBarHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HealthBarHoldPatch.cs",
+  "lines": 24,
+  "src_start": 20236,
+  "src_end": 20259
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "DamageNumberHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.DamageNumberHoldPatch.cs",
+  "lines": 24,
+  "src_start": 20260,
+  "src_end": 20283
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HitSparkHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HitSparkHoldPatch.cs",
+  "lines": 19,
+  "src_start": 20284,
+  "src_end": 20302
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SceneVfxHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SceneVfxHoldPatch.cs",
+  "lines": 21,
+  "src_start": 20303,
+  "src_end": 20323
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "FullScreenVfxHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.FullScreenVfxHoldPatch.cs",
+  "lines": 25,
+  "src_start": 20324,
+  "src_end": 20348
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SoundHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SoundHoldPatch.cs",
+  "lines": 19,
+  "src_start": 20349,
+  "src_end": 20367
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "VfxFactoryPatches",
+  "kind": "class",
+  "file": "SilentFX.Patches.VfxFactoryPatches.cs",
+  "lines": 148,
+  "src_start": 20368,
+  "src_end": 20515
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDrawSizedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDrawSizedPatch.cs",
+  "lines": 15,
+  "src_start": 20516,
+  "src_end": 20530
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDrawBeginsPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDrawBeginsPatch.cs",
+  "lines": 15,
+  "src_start": 20531,
+  "src_end": 20545
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandCardDrawnPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandCardDrawnPatch.cs",
+  "lines": 19,
+  "src_start": 20546,
+  "src_end": 20564
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardEnteredHandPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardEnteredHandPatch.cs",
+  "lines": 25,
+  "src_start": 20565,
+  "src_end": 20589
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDrawCommandPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDrawCommandPatch.cs",
+  "lines": 82,
+  "src_start": 20590,
+  "src_end": 20671
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandShuffleCommandPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandShuffleCommandPatch.cs",
+  "lines": 103,
+  "src_start": 20672,
+  "src_end": 20774
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDrawAddTypePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDrawAddTypePatch.cs",
+  "lines": 23,
+  "src_start": 20775,
+  "src_end": 20797
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDrawAddPilePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDrawAddPilePatch.cs",
+  "lines": 21,
+  "src_start": 20798,
+  "src_end": 20818
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDiscardCommandPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDiscardCommandPatch.cs",
+  "lines": 114,
+  "src_start": 20819,
+  "src_end": 20932
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandCardDiscardedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandCardDiscardedPatch.cs",
+  "lines": 23,
+  "src_start": 20933,
+  "src_end": 20955
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandSlyPlayPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandSlyPlayPatch.cs",
+  "lines": 25,
+  "src_start": 20956,
+  "src_end": 20980
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandPlayerTurnPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandPlayerTurnPatch.cs",
+  "lines": 33,
+  "src_start": 20981,
+  "src_end": 21013
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandTurnEndingPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandTurnEndingPatch.cs",
+  "lines": 19,
+  "src_start": 21014,
+  "src_end": 21032
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandHoldPositionPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandHoldPositionPatch.cs",
+  "lines": 27,
+  "src_start": 21033,
+  "src_end": 21059
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandHoldAnglePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandHoldAnglePatch.cs",
+  "lines": 21,
+  "src_start": 21060,
+  "src_end": 21080
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandHoldScalePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandHoldScalePatch.cs",
+  "lines": 15,
+  "src_start": 21081,
+  "src_end": 21095
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDecoReturnedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDecoReturnedPatch.cs",
+  "lines": 15,
+  "src_start": 21096,
+  "src_end": 21110
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandDecoFreedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandDecoFreedPatch.cs",
+  "lines": 15,
+  "src_start": 21111,
+  "src_end": 21125
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HandSelectionPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HandSelectionPatch.cs",
+  "lines": 58,
+  "src_start": 21126,
+  "src_end": 21183
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HeldHooks",
+  "kind": "class",
+  "file": "SilentFX.Patches.HeldHooks.cs",
+  "lines": 92,
+  "src_start": 21184,
+  "src_end": 21275
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "MouseCardPickedUpPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.MouseCardPickedUpPatch.cs",
+  "lines": 15,
+  "src_start": 21276,
+  "src_end": 21290
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ControllerCardPickedUpPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ControllerCardPickedUpPatch.cs",
+  "lines": 15,
+  "src_start": 21291,
+  "src_end": 21305
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardAimedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardAimedPatch.cs",
+  "lines": 15,
+  "src_start": 21306,
+  "src_end": 21320
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardUnaimedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardUnaimedPatch.cs",
+  "lines": 15,
+  "src_start": 21321,
+  "src_end": 21335
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardLetGoPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardLetGoPatch.cs",
+  "lines": 20,
+  "src_start": 21336,
+  "src_end": 21355
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ShivThrowVfxPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ShivThrowVfxPatch.cs",
+  "lines": 69,
+  "src_start": 21356,
+  "src_end": 21424
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ShivFanThrowPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ShivFanThrowPatch.cs",
+  "lines": 19,
+  "src_start": 21425,
+  "src_end": 21443
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SkippedMotionPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SkippedMotionPatch.cs",
+  "lines": 49,
+  "src_start": 21444,
+  "src_end": 21492
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StormDiscardPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StormDiscardPatch.cs",
+  "lines": 133,
+  "src_start": 21493,
+  "src_end": 21625
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "FlightHold",
+  "kind": "class",
+  "file": "SilentFX.Patches.FlightHold.cs",
+  "lines": 183,
+  "src_start": 21626,
+  "src_end": 21808
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "BiteCoverPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.BiteCoverPatch.cs",
+  "lines": 93,
+  "src_start": 21809,
+  "src_end": 21901
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardPlayedHookPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardPlayedHookPatch.cs",
+  "lines": 47,
+  "src_start": 21902,
+  "src_end": 21948
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "DamageGivenHookPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.DamageGivenHookPatch.cs",
+  "lines": 72,
+  "src_start": 21949,
+  "src_end": 22020
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "FlushHookPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.FlushHookPatch.cs",
+  "lines": 32,
+  "src_start": 22021,
+  "src_end": 22052
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ThornsTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ThornsTriggerPatch.cs",
+  "lines": 20,
+  "src_start": 22053,
+  "src_end": 22072
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "MasterPlannerTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.MasterPlannerTriggerPatch.cs",
+  "lines": 26,
+  "src_start": 22073,
+  "src_end": 22098
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardDiscardedHookPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardDiscardedHookPatch.cs",
+  "lines": 19,
+  "src_start": 22099,
+  "src_end": 22117
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SlyPlayPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SlyPlayPatch.cs",
+  "lines": 21,
+  "src_start": 22118,
+  "src_end": 22138
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SneakyTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SneakyTriggerPatch.cs",
+  "lines": 32,
+  "src_start": 22139,
+  "src_end": 22170
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ToolsTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ToolsTriggerPatch.cs",
+  "lines": 22,
+  "src_start": 22171,
+  "src_end": 22192
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "BurstTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.BurstTriggerPatch.cs",
+  "lines": 34,
+  "src_start": 22193,
+  "src_end": 22226
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "BurstReplayPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.BurstReplayPatch.cs",
+  "lines": 15,
+  "src_start": 22227,
+  "src_end": 22241
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CardFinishedHookPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CardFinishedHookPatch.cs",
+  "lines": 28,
+  "src_start": 22242,
+  "src_end": 22269
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SideTurnStartHookPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SideTurnStartHookPatch.cs",
+  "lines": 21,
+  "src_start": 22270,
+  "src_end": 22290
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ShivCreatedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ShivCreatedPatch.cs",
+  "lines": 25,
+  "src_start": 22291,
+  "src_end": 22315
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ShivResetPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ShivResetPatch.cs",
+  "lines": 46,
+  "src_start": 22316,
+  "src_end": 22361
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CreatureHoldCombatEndPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CreatureHoldCombatEndPatch.cs",
+  "lines": 32,
+  "src_start": 22362,
+  "src_end": 22393
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CreatureHoldBulletSlowPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CreatureHoldBulletSlowPatch.cs",
+  "lines": 15,
+  "src_start": 22394,
+  "src_end": 22408
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CreatureHoldBulletRestorePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CreatureHoldBulletRestorePatch.cs",
+  "lines": 15,
+  "src_start": 22409,
+  "src_end": 22423
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "PoisonTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.PoisonTriggerPatch.cs",
+  "lines": 25,
+  "src_start": 22424,
+  "src_end": 22448
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CorrosiveWaveTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CorrosiveWaveTriggerPatch.cs",
+  "lines": 28,
+  "src_start": 22449,
+  "src_end": 22476
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "ConcoctTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.ConcoctTriggerPatch.cs",
+  "lines": 33,
+  "src_start": 22477,
+  "src_end": 22509
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HuntExtraRewardPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HuntExtraRewardPatch.cs",
+  "lines": 18,
+  "src_start": 22510,
+  "src_end": 22527
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HuntCardFinishedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HuntCardFinishedPatch.cs",
+  "lines": 18,
+  "src_start": 22528,
+  "src_end": 22545
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "HuntRoomExitPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.HuntRoomExitPatch.cs",
+  "lines": 14,
+  "src_start": 22546,
+  "src_end": 22559
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "KnifeTrapSource",
+  "kind": "class",
+  "file": "SilentFX.Patches.KnifeTrapSource.cs",
+  "lines": 53,
+  "src_start": 22560,
+  "src_end": 22612
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "KnifeTrapAutoPlayScopePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.KnifeTrapAutoPlayScopePatch.cs",
+  "lines": 28,
+  "src_start": 22613,
+  "src_end": 22640
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "MultiplayerCardScopePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.MultiplayerCardScopePatch.cs",
+  "lines": 32,
+  "src_start": 22641,
+  "src_end": 22672
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "PowerAppliedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.PowerAppliedPatch.cs",
+  "lines": 15,
+  "src_start": 22673,
+  "src_end": 22687
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "PowerRemovedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.PowerRemovedPatch.cs",
+  "lines": 20,
+  "src_start": 22688,
+  "src_end": 22707
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "PowerAmountPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.PowerAmountPatch.cs",
+  "lines": 15,
+  "src_start": 22708,
+  "src_end": 22722
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "CombatRoomExitPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.CombatRoomExitPatch.cs",
+  "lines": 22,
+  "src_start": 22723,
+  "src_end": 22744
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "NoxiousFumesTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.NoxiousFumesTriggerPatch.cs",
+  "lines": 18,
+  "src_start": 22745,
+  "src_end": 22762
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "WraithFormTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.WraithFormTriggerPatch.cs",
+  "lines": 18,
+  "src_start": 22763,
+  "src_end": 22780
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "InfiniteBladesTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.InfiniteBladesTriggerPatch.cs",
+  "lines": 21,
+  "src_start": 22781,
+  "src_end": 22801
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AfterimageRemoteSeen",
+  "kind": "class",
+  "file": "SilentFX.Patches.AfterimageRemoteSeen.cs",
+  "lines": 35,
+  "src_start": 22802,
+  "src_end": 22836
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AfterimageNotePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AfterimageNotePatch.cs",
+  "lines": 32,
+  "src_start": 22837,
+  "src_end": 22868
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "AfterimageTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.AfterimageTriggerPatch.cs",
+  "lines": 40,
+  "src_start": 22869,
+  "src_end": 22908
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "EnvenomTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.EnvenomTriggerPatch.cs",
+  "lines": 19,
+  "src_start": 22909,
+  "src_end": 22927
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "BlurTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.BlurTriggerPatch.cs",
+  "lines": 17,
+  "src_start": 22928,
+  "src_end": 22944
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StrangleSeen",
+  "kind": "class",
+  "file": "SilentFX.Patches.StrangleSeen.cs",
+  "lines": 22,
+  "src_start": 22945,
+  "src_end": 22966
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StrangleNotePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StrangleNotePatch.cs",
+  "lines": 38,
+  "src_start": 22967,
+  "src_end": 23004
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StrangleTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StrangleTriggerPatch.cs",
+  "lines": 25,
+  "src_start": 23005,
+  "src_end": 23029
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "SpeedsterTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.SpeedsterTriggerPatch.cs",
+  "lines": 35,
+  "src_start": 23030,
+  "src_end": 23064
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "BlockNextTurnTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.BlockNextTurnTriggerPatch.cs",
+  "lines": 18,
+  "src_start": 23065,
+  "src_end": 23082
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "IntangibleTriggerPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.IntangibleTriggerPatch.cs",
+  "lines": 15,
+  "src_start": 23083,
+  "src_end": 23097
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "BlockGainedPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.BlockGainedPatch.cs",
+  "lines": 17,
+  "src_start": 23098,
+  "src_end": 23114
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StatusStepHooks",
+  "kind": "class",
+  "file": "SilentFX.Patches.StatusStepHooks.cs",
+  "lines": 79,
+  "src_start": 23115,
+  "src_end": 23193
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StatusAmountHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StatusAmountHoldPatch.cs",
+  "lines": 37,
+  "src_start": 23194,
+  "src_end": 23230
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StatusChangeHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StatusChangeHoldPatch.cs",
+  "lines": 37,
+  "src_start": 23231,
+  "src_end": 23267
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StatusFlashHoldPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StatusFlashHoldPatch.cs",
+  "lines": 37,
+  "src_start": 23268,
+  "src_end": 23304
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StatusStepsCombatEndPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StatusStepsCombatEndPatch.cs",
+  "lines": 23,
+  "src_start": 23305,
+  "src_end": 23327
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "StatusStepsRoomExitPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.StatusStepsRoomExitPatch.cs",
+  "lines": 22,
+  "src_start": 23328,
+  "src_end": 23349
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourPatches",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourPatches.cs",
+  "lines": 120,
+  "src_start": 23350,
+  "src_end": 23469
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourDamagePatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourDamagePatch.cs",
+  "lines": 22,
+  "src_start": 23470,
+  "src_end": 23491
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourSetHpPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourSetHpPatch.cs",
+  "lines": 18,
+  "src_start": 23492,
+  "src_end": 23509
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourKillPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourKillPatch.cs",
+  "lines": 25,
+  "src_start": 23510,
+  "src_end": 23534
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourArrowPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourArrowPatch.cs",
+  "lines": 23,
+  "src_start": 23535,
+  "src_end": 23557
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourHandLockPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourHandLockPatch.cs",
+  "lines": 20,
+  "src_start": 23558,
+  "src_end": 23577
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourEndTurnLockPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourEndTurnLockPatch.cs",
+  "lines": 15,
+  "src_start": 23578,
+  "src_end": 23592
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "TourBeforeDrawPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.TourBeforeDrawPatch.cs",
+  "lines": 22,
+  "src_start": 23593,
+  "src_end": 23614
+ },
+ {
+  "namespace": "SilentFX.Patches",
+  "type": "WraithCardFlightPatch",
+  "kind": "class",
+  "file": "SilentFX.Patches.WraithCardFlightPatch.cs",
+  "lines": 21,
+  "src_start": 23615,
+  "src_end": 23635
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "DevPreview",
+  "kind": "class",
+  "file": "SilentFX.Dev.DevPreview.cs",
+  "lines": 715,
+  "src_start": 23636,
+  "src_end": 24350
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "Showcase",
+  "kind": "class",
+  "file": "SilentFX.Dev.Showcase.cs",
+  "lines": 1374,
+  "src_start": 24351,
+  "src_end": 25724
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TestBench",
+  "kind": "class",
+  "file": "SilentFX.Dev.TestBench.cs",
+  "lines": 1611,
+  "src_start": 25725,
+  "src_end": 27335
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourController",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourController.cs",
+  "lines": 979,
+  "src_start": 27336,
+  "src_end": 28314
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourScene",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourScene.cs",
+  "lines": 347,
+  "src_start": 28315,
+  "src_end": 28661
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourDocument",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourDocument.cs",
+  "lines": 16,
+  "src_start": 28662,
+  "src_end": 28677
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourLine",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourLine.cs",
+  "lines": 6,
+  "src_start": 28678,
+  "src_end": 28683
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourScreen",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourScreen.cs",
+  "lines": 6,
+  "src_start": 28684,
+  "src_end": 28689
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourDefinition",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourDefinition.cs",
+  "lines": 28,
+  "src_start": 28690,
+  "src_end": 28717
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourCard",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourCard.cs",
+  "lines": 28,
+  "src_start": 28718,
+  "src_end": 28745
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourEnemyRule",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourEnemyRule.cs",
+  "lines": 8,
+  "src_start": 28746,
+  "src_end": 28753
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourScript",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourScript.cs",
+  "lines": 573,
+  "src_start": 28754,
+  "src_end": 29326
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourSlow",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourSlow.cs",
+  "lines": 89,
+  "src_start": 29327,
+  "src_end": 29415
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourTurnPlan",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourTurnPlan.cs",
+  "lines": 123,
+  "src_start": 29416,
+  "src_end": 29538
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourStop",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourStop.cs",
+  "lines": 12,
+  "src_start": 29539,
+  "src_end": 29550
+ },
+ {
+  "namespace": "SilentFX.Dev",
+  "type": "TourUi",
+  "kind": "class",
+  "file": "SilentFX.Dev.TourUi.cs",
+  "lines": 995,
+  "src_start": 29551,
+  "src_end": 30545
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AimCompatibility",
+  "kind": "class",
+  "file": "SilentFX.Core.AimCompatibility.cs",
+  "lines": 558,
+  "src_start": 30546,
+  "src_end": 31103
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AimLocalTarget",
+  "kind": "class",
+  "file": "SilentFX.Core.AimLocalTarget.cs",
+  "lines": 184,
+  "src_start": 31104,
+  "src_end": 31287
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AimMessage",
+  "kind": "struct",
+  "file": "SilentFX.Core.AimMessage.cs",
+  "lines": 98,
+  "src_start": 31288,
+  "src_end": 31385
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AimSync",
+  "kind": "class",
+  "file": "SilentFX.Core.AimSync.cs",
+  "lines": 590,
+  "src_start": 31386,
+  "src_end": 31975
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AssetWarmup",
+  "kind": "class",
+  "file": "SilentFX.Core.AssetWarmup.cs",
+  "lines": 171,
+  "src_start": 31976,
+  "src_end": 32146
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AttackInfo",
+  "kind": "class",
+  "file": "SilentFX.Core.AttackInfo.cs",
+  "lines": 16,
+  "src_start": 32147,
+  "src_end": 32162
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "AttackFeed",
+  "kind": "class",
+  "file": "SilentFX.Core.AttackFeed.cs",
+  "lines": 367,
+  "src_start": 32163,
+  "src_end": 32529
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Brush",
+  "kind": "class",
+  "file": "SilentFX.Core.Brush.cs",
+  "lines": 591,
+  "src_start": 32530,
+  "src_end": 33120
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "CardDeco",
+  "kind": "class",
+  "file": "SilentFX.Core.CardDeco.cs",
+  "lines": 449,
+  "src_start": 33121,
+  "src_end": 33569
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "CardRide",
+  "kind": "class",
+  "file": "SilentFX.Core.CardRide.cs",
+  "lines": 364,
+  "src_start": 33570,
+  "src_end": 33933
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "HandBackend",
+  "kind": "class",
+  "file": "SilentFX.Core.HandBackend.cs",
+  "lines": 72,
+  "src_start": 33934,
+  "src_end": 34005
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "CreatureHold",
+  "kind": "class",
+  "file": "SilentFX.Core.CreatureHold.cs",
+  "lines": 428,
+  "src_start": 34006,
+  "src_end": 34433
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "EchoForecast",
+  "kind": "class",
+  "file": "SilentFX.Core.EchoForecast.cs",
+  "lines": 105,
+  "src_start": 34434,
+  "src_end": 34538
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "FmodNative",
+  "kind": "class",
+  "file": "SilentFX.Core.FmodNative.cs",
+  "lines": 1039,
+  "src_start": 34539,
+  "src_end": 35577
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "FrameDiagnostics",
+  "kind": "class",
+  "file": "SilentFX.Core.FrameDiagnostics.cs",
+  "lines": 110,
+  "src_start": 35578,
+  "src_end": 35687
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "FxClock",
+  "kind": "class",
+  "file": "SilentFX.Core.FxClock.cs",
+  "lines": 27,
+  "src_start": 35688,
+  "src_end": 35714
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "FxKit",
+  "kind": "class",
+  "file": "SilentFX.Core.FxKit.cs",
+  "lines": 1071,
+  "src_start": 35715,
+  "src_end": 36785
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "FxLifetime",
+  "kind": "class",
+  "file": "SilentFX.Core.FxLifetime.cs",
+  "lines": 139,
+  "src_start": 36786,
+  "src_end": 36924
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "GameCapabilities",
+  "kind": "class",
+  "file": "SilentFX.Core.GameCapabilities.cs",
+  "lines": 238,
+  "src_start": 36925,
+  "src_end": 37162
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "GameRefs",
+  "kind": "class",
+  "file": "SilentFX.Core.GameRefs.cs",
+  "lines": 409,
+  "src_start": 37163,
+  "src_end": 37571
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "GameSounds",
+  "kind": "class",
+  "file": "SilentFX.Core.GameSounds.cs",
+  "lines": 503,
+  "src_start": 37572,
+  "src_end": 38074
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "HandCards",
+  "kind": "class",
+  "file": "SilentFX.Core.HandCards.cs",
+  "lines": 258,
+  "src_start": 38075,
+  "src_end": 38332
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "CardStandIn",
+  "kind": "class",
+  "file": "SilentFX.Core.CardStandIn.cs",
+  "lines": 257,
+  "src_start": 38333,
+  "src_end": 38589
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "CardFlight",
+  "kind": "class",
+  "file": "SilentFX.Core.CardFlight.cs",
+  "lines": 110,
+  "src_start": 38590,
+  "src_end": 38699
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "HandFlow",
+  "kind": "class",
+  "file": "SilentFX.Core.HandFlow.cs",
+  "lines": 420,
+  "src_start": 38700,
+  "src_end": 39119
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "HandHold",
+  "kind": "class",
+  "file": "SilentFX.Core.HandHold.cs",
+  "lines": 388,
+  "src_start": 39120,
+  "src_end": 39507
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "HandPace",
+  "kind": "class",
+  "file": "SilentFX.Core.HandPace.cs",
+  "lines": 157,
+  "src_start": 39508,
+  "src_end": 39664
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "HandPaceSettings",
+  "kind": "class",
+  "file": "SilentFX.Core.HandPaceSettings.cs",
+  "lines": 403,
+  "src_start": 39665,
+  "src_end": 40067
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Mood",
+  "kind": "class",
+  "file": "SilentFX.Core.Mood.cs",
+  "lines": 419,
+  "src_start": 40068,
+  "src_end": 40486
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "MultiplayerFx",
+  "kind": "class",
+  "file": "SilentFX.Core.MultiplayerFx.cs",
+  "lines": 111,
+  "src_start": 40487,
+  "src_end": 40597
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "PlayerSettings",
+  "kind": "class",
+  "file": "SilentFX.Core.PlayerSettings.cs",
+  "lines": 488,
+  "src_start": 40598,
+  "src_end": 41085
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Props",
+  "kind": "class",
+  "file": "SilentFX.Core.Props.cs",
+  "lines": 288,
+  "src_start": 41086,
+  "src_end": 41373
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "RemoteFxFade",
+  "kind": "class",
+  "file": "SilentFX.Core.RemoteFxFade.cs",
+  "lines": 327,
+  "src_start": 41374,
+  "src_end": 41700
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "RemoteFxFocus",
+  "kind": "class",
+  "file": "SilentFX.Core.RemoteFxFocus.cs",
+  "lines": 310,
+  "src_start": 41701,
+  "src_end": 42010
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "RemoteShivCreation",
+  "kind": "class",
+  "file": "SilentFX.Core.RemoteShivCreation.cs",
+  "lines": 107,
+  "src_start": 42011,
+  "src_end": 42117
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "RuntimeApiCompatibility",
+  "kind": "class",
+  "file": "SilentFX.Core.RuntimeApiCompatibility.cs",
+  "lines": 179,
+  "src_start": 42118,
+  "src_end": 42296
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Sfx",
+  "kind": "class",
+  "file": "SilentFX.Core.Sfx.cs",
+  "lines": 2275,
+  "src_start": 42297,
+  "src_end": 44571
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Shade",
+  "kind": "class",
+  "file": "SilentFX.Core.Shade.cs",
+  "lines": 163,
+  "src_start": 44572,
+  "src_end": 44734
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "ShadeMist",
+  "kind": "class",
+  "file": "SilentFX.Core.ShadeMist.cs",
+  "lines": 94,
+  "src_start": 44735,
+  "src_end": 44828
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "ShaderLib",
+  "kind": "class",
+  "file": "SilentFX.Core.ShaderLib.cs",
+  "lines": 108,
+  "src_start": 44829,
+  "src_end": 44936
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "ShaderWarmup",
+  "kind": "class",
+  "file": "SilentFX.Core.ShaderWarmup.cs",
+  "lines": 277,
+  "src_start": 44937,
+  "src_end": 45213
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Ticker",
+  "kind": "class",
+  "file": "SilentFX.Core.Ticker.cs",
+  "lines": 151,
+  "src_start": 45214,
+  "src_end": 45364
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "Tuning",
+  "kind": "class",
+  "file": "SilentFX.Core.Tuning.cs",
+  "lines": 55,
+  "src_start": 45365,
+  "src_end": 45419
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "TurnLog",
+  "kind": "class",
+  "file": "SilentFX.Core.TurnLog.cs",
+  "lines": 137,
+  "src_start": 45420,
+  "src_end": 45556
+ },
+ {
+  "namespace": "SilentFX.Core",
+  "type": "WraithAudioWarmup",
+  "kind": "class",
+  "file": "SilentFX.Core.WraithAudioWarmup.cs",
+  "lines": 137,
+  "src_start": 45557,
+  "src_end": 45693
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "AssassinateFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.AssassinateFx.cs",
+  "lines": 404,
+  "src_start": 45694,
+  "src_end": 46097
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "AssassinateHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.AssassinateHeld.cs",
+  "lines": 176,
+  "src_start": 46098,
+  "src_end": 46273
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "Tally",
+  "kind": "class",
+  "file": "SilentFX.Cards.Tally.cs",
+  "lines": 84,
+  "src_start": 46274,
+  "src_end": 46357
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "Strokes",
+  "kind": "class",
+  "file": "SilentFX.Cards.Strokes.cs",
+  "lines": 17,
+  "src_start": 46358,
+  "src_end": 46374
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BackstabFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.BackstabFx.cs",
+  "lines": 56,
+  "src_start": 46375,
+  "src_end": 46430
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BackstabHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.BackstabHeld.cs",
+  "lines": 63,
+  "src_start": 46431,
+  "src_end": 46493
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "DashFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.DashFx.cs",
+  "lines": 71,
+  "src_start": 46494,
+  "src_end": 46564
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PredatorFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PredatorFx.cs",
+  "lines": 40,
+  "src_start": 46565,
+  "src_end": 46604
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuckerPunchFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuckerPunchFx.cs",
+  "lines": 31,
+  "src_start": 46605,
+  "src_end": 46635
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FlickFlackFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.FlickFlackFx.cs",
+  "lines": 45,
+  "src_start": 46636,
+  "src_end": 46680
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "Over",
+  "kind": "class",
+  "file": "SilentFX.Cards.Over.cs",
+  "lines": 67,
+  "src_start": 46681,
+  "src_end": 46747
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "AcrobaticsFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.AcrobaticsFx.cs",
+  "lines": 43,
+  "src_start": 46748,
+  "src_end": 46790
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BackflipFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.BackflipFx.cs",
+  "lines": 58,
+  "src_start": 46791,
+  "src_end": 46848
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BlurFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.BlurFx.cs",
+  "lines": 58,
+  "src_start": 46849,
+  "src_end": 46906
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "EscapePlanFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.EscapePlanFx.cs",
+  "lines": 30,
+  "src_start": 46907,
+  "src_end": 46936
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ExpertiseFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ExpertiseFx.cs",
+  "lines": 54,
+  "src_start": 46937,
+  "src_end": 46990
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ExposeFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ExposeFx.cs",
+  "lines": 680,
+  "src_start": 46991,
+  "src_end": 47670
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FadeFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.FadeFx.cs",
+  "lines": 28,
+  "src_start": 47671,
+  "src_end": 47698
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FootworkFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.FootworkFx.cs",
+  "lines": 215,
+  "src_start": 47699,
+  "src_end": 47913
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "LegSweepFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.LegSweepFx.cs",
+  "lines": 46,
+  "src_start": 47914,
+  "src_end": 47959
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ReflexFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ReflexFx.cs",
+  "lines": 58,
+  "src_start": 47960,
+  "src_end": 48017
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SidestepFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.SidestepFx.cs",
+  "lines": 52,
+  "src_start": 48018,
+  "src_end": 48069
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "TacticianFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.TacticianFx.cs",
+  "lines": 42,
+  "src_start": 48070,
+  "src_end": 48111
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "DeflectFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.DeflectFx.cs",
+  "lines": 207,
+  "src_start": 48112,
+  "src_end": 48318
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "DodgeAndRollFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.DodgeAndRollFx.cs",
+  "lines": 241,
+  "src_start": 48319,
+  "src_end": 48559
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "AnticipateFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.AnticipateFx.cs",
+  "lines": 35,
+  "src_start": 48560,
+  "src_end": 48594
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PreparedFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PreparedFx.cs",
+  "lines": 41,
+  "src_start": 48595,
+  "src_end": 48635
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "UntouchableFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.UntouchableFx.cs",
+  "lines": 56,
+  "src_start": 48636,
+  "src_end": 48691
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BubbleBubbleFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.BubbleBubbleFx.cs",
+  "lines": 172,
+  "src_start": 48692,
+  "src_end": 48863
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BulletTimeFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.BulletTimeFx.cs",
+  "lines": 212,
+  "src_start": 48864,
+  "src_end": 49075
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BulletTimeHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.BulletTimeHeld.cs",
+  "lines": 97,
+  "src_start": 49076,
+  "src_end": 49172
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "CardFxContext",
+  "kind": "class",
+  "file": "SilentFX.Cards.CardFxContext.cs",
+  "lines": 76,
+  "src_start": 49173,
+  "src_end": 49248
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "CardFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.CardFx.cs",
+  "lines": 10,
+  "src_start": 49249,
+  "src_end": 49258
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "CardFxManager",
+  "kind": "class",
+  "file": "SilentFX.Cards.CardFxManager.cs",
+  "lines": 467,
+  "src_start": 49259,
+  "src_end": 49725
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "DeadlyPoisonFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.DeadlyPoisonFx.cs",
+  "lines": 145,
+  "src_start": 49726,
+  "src_end": 49870
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "EchoingSlashFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.EchoingSlashFx.cs",
+  "lines": 1540,
+  "src_start": 49871,
+  "src_end": 51410
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BeadKind",
+  "kind": "enum",
+  "file": "SilentFX.Cards.BeadKind.cs",
+  "lines": 6,
+  "src_start": 51411,
+  "src_end": 51416
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "EnergyBeads",
+  "kind": "class",
+  "file": "SilentFX.Cards.EnergyBeads.cs",
+  "lines": 1251,
+  "src_start": 51417,
+  "src_end": 52667
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ExposeWipe",
+  "kind": "class",
+  "file": "SilentFX.Cards.ExposeWipe.cs",
+  "lines": 1966,
+  "src_start": 52668,
+  "src_end": 54633
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FinisherHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.FinisherHeld.cs",
+  "lines": 2452,
+  "src_start": 54634,
+  "src_end": 57085
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FinisherCard",
+  "kind": "class",
+  "file": "SilentFX.Cards.FinisherCard.cs",
+  "lines": 472,
+  "src_start": 57086,
+  "src_end": 57557
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FinisherFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.FinisherFx.cs",
+  "lines": 1360,
+  "src_start": 57558,
+  "src_end": 58917
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FlechettesOrbit",
+  "kind": "class",
+  "file": "SilentFX.Cards.FlechettesOrbit.cs",
+  "lines": 1150,
+  "src_start": 58918,
+  "src_end": 60067
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "FlechettesThrowFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.FlechettesThrowFx.cs",
+  "lines": 107,
+  "src_start": 60068,
+  "src_end": 60174
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "GambleHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.GambleHeld.cs",
+  "lines": 236,
+  "src_start": 60175,
+  "src_end": 60410
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "GambleFlow",
+  "kind": "class",
+  "file": "SilentFX.Cards.GambleFlow.cs",
+  "lines": 3639,
+  "src_start": 60411,
+  "src_end": 64049
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HandMoves",
+  "kind": "class",
+  "file": "SilentFX.Cards.HandMoves.cs",
+  "lines": 3041,
+  "src_start": 64050,
+  "src_end": 67090
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HandTrickFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.HandTrickFx.cs",
+  "lines": 57,
+  "src_start": 67091,
+  "src_end": 67147
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HandTrickWipe",
+  "kind": "class",
+  "file": "SilentFX.Cards.HandTrickWipe.cs",
+  "lines": 1046,
+  "src_start": 67148,
+  "src_end": 68193
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HeldSession",
+  "kind": "class",
+  "file": "SilentFX.Cards.HeldSession.cs",
+  "lines": 238,
+  "src_start": 68194,
+  "src_end": 68431
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HeldFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.HeldFx.cs",
+  "lines": 18,
+  "src_start": 68432,
+  "src_end": 68449
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HeldFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.HeldFx.cs",
+  "lines": 21,
+  "src_start": 68450,
+  "src_end": 68470
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HeldFxManager",
+  "kind": "class",
+  "file": "SilentFX.Cards.HeldFxManager.cs",
+  "lines": 623,
+  "src_start": 68471,
+  "src_end": 69093
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "IntroSpot",
+  "kind": "enum",
+  "file": "SilentFX.Cards.IntroSpot.cs",
+  "lines": 5,
+  "src_start": 69094,
+  "src_end": 69098
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "IntroFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.IntroFx.cs",
+  "lines": 43,
+  "src_start": 69099,
+  "src_end": 69141
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "Intro",
+  "kind": "class",
+  "file": "SilentFX.Cards.Intro.cs",
+  "lines": 211,
+  "src_start": 69142,
+  "src_end": 69352
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "Intros",
+  "kind": "class",
+  "file": "SilentFX.Cards.Intros.cs",
+  "lines": 961,
+  "src_start": 69353,
+  "src_end": 70313
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "KnifeTrapFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.KnifeTrapFx.cs",
+  "lines": 1510,
+  "src_start": 70314,
+  "src_end": 71823
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "KnifeTrapHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.KnifeTrapHeld.cs",
+  "lines": 91,
+  "src_start": 71824,
+  "src_end": 71914
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MalaiseFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.MalaiseFx.cs",
+  "lines": 3918,
+  "src_start": 71915,
+  "src_end": 75832
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MalaiseHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.MalaiseHeld.cs",
+  "lines": 83,
+  "src_start": 75833,
+  "src_end": 75915
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MementoHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.MementoHeld.cs",
+  "lines": 3273,
+  "src_start": 75916,
+  "src_end": 79188
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MementoStrikeFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.MementoStrikeFx.cs",
+  "lines": 68,
+  "src_start": 79189,
+  "src_end": 79256
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MirageFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.MirageFx.cs",
+  "lines": 356,
+  "src_start": 79257,
+  "src_end": 79612
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MurderFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.MurderFx.cs",
+  "lines": 1247,
+  "src_start": 79613,
+  "src_end": 80859
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MurderHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.MurderHeld.cs",
+  "lines": 162,
+  "src_start": 80860,
+  "src_end": 81021
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "NoxiousCloudFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.NoxiousCloudFx.cs",
+  "lines": 213,
+  "src_start": 81022,
+  "src_end": 81234
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "OutbreakLook",
+  "kind": "class",
+  "file": "SilentFX.Cards.OutbreakLook.cs",
+  "lines": 115,
+  "src_start": 81235,
+  "src_end": 81349
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "OutbreakFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.OutbreakFx.cs",
+  "lines": 542,
+  "src_start": 81350,
+  "src_end": 81891
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "OutbreakHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.OutbreakHeld.cs",
+  "lines": 216,
+  "src_start": 81892,
+  "src_end": 82107
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PiercingWailFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PiercingWailFx.cs",
+  "lines": 807,
+  "src_start": 82108,
+  "src_end": 82914
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PinpointFocus",
+  "kind": "class",
+  "file": "SilentFX.Cards.PinpointFocus.cs",
+  "lines": 317,
+  "src_start": 82915,
+  "src_end": 83231
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PinpointFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PinpointFx.cs",
+  "lines": 76,
+  "src_start": 83232,
+  "src_end": 83307
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PinpointHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.PinpointHeld.cs",
+  "lines": 280,
+  "src_start": 83308,
+  "src_end": 83587
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PoisonedStabFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PoisonedStabFx.cs",
+  "lines": 106,
+  "src_start": 83588,
+  "src_end": 83693
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "IHeldOrigin",
+  "kind": "interface",
+  "file": "SilentFX.Cards.IHeldOrigin.cs",
+  "lines": 4,
+  "src_start": 83694,
+  "src_end": 83697
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HeldParts",
+  "kind": "class",
+  "file": "SilentFX.Cards.HeldParts.cs",
+  "lines": 80,
+  "src_start": 83698,
+  "src_end": 83777
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "DeadlyPoisonHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.DeadlyPoisonHeld.cs",
+  "lines": 142,
+  "src_start": 83778,
+  "src_end": 83919
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ChargeHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.ChargeHeld.cs",
+  "lines": 166,
+  "src_start": 83920,
+  "src_end": 84085
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SnakebiteHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.SnakebiteHeld.cs",
+  "lines": 4,
+  "src_start": 84086,
+  "src_end": 84089
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PoisonedStabHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.PoisonedStabHeld.cs",
+  "lines": 128,
+  "src_start": 84090,
+  "src_end": 84217
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "AimMarkHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.AimMarkHeld.cs",
+  "lines": 64,
+  "src_start": 84218,
+  "src_end": 84281
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "BubbleBubbleHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.BubbleBubbleHeld.cs",
+  "lines": 4,
+  "src_start": 84282,
+  "src_end": 84285
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "MirageHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.MirageHeld.cs",
+  "lines": 159,
+  "src_start": 84286,
+  "src_end": 84444
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "CorrosiveWaveHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.CorrosiveWaveHeld.cs",
+  "lines": 108,
+  "src_start": 84445,
+  "src_end": 84552
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PounceFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PounceFx.cs",
+  "lines": 399,
+  "src_start": 84553,
+  "src_end": 84951
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PreciseCutChains",
+  "kind": "class",
+  "file": "SilentFX.Cards.PreciseCutChains.cs",
+  "lines": 616,
+  "src_start": 84952,
+  "src_end": 85567
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PreciseCutFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.PreciseCutFx.cs",
+  "lines": 1669,
+  "src_start": 85568,
+  "src_end": 87236
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "PreciseCutHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.PreciseCutHeld.cs",
+  "lines": 440,
+  "src_start": 87237,
+  "src_end": 87676
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "RemoteHeldFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.RemoteHeldFx.cs",
+  "lines": 595,
+  "src_start": 87677,
+  "src_end": 88271
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "RetainLine",
+  "kind": "class",
+  "file": "SilentFX.Cards.RetainLine.cs",
+  "lines": 857,
+  "src_start": 88272,
+  "src_end": 89128
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "RicochetFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.RicochetFx.cs",
+  "lines": 26,
+  "src_start": 89129,
+  "src_end": 89154
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "RicochetRun",
+  "kind": "class",
+  "file": "SilentFX.Cards.RicochetRun.cs",
+  "lines": 861,
+  "src_start": 89155,
+  "src_end": 90015
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "Murk",
+  "kind": "class",
+  "file": "SilentFX.Cards.Murk.cs",
+  "lines": 135,
+  "src_start": 90016,
+  "src_end": 90150
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShadowEcho",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShadowEcho.cs",
+  "lines": 589,
+  "src_start": 90151,
+  "src_end": 90739
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShadowmeldHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShadowmeldHeld.cs",
+  "lines": 74,
+  "src_start": 90740,
+  "src_end": 90813
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "HandShade",
+  "kind": "class",
+  "file": "SilentFX.Cards.HandShade.cs",
+  "lines": 283,
+  "src_start": 90814,
+  "src_end": 91096
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShadowCloud",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShadowCloud.cs",
+  "lines": 416,
+  "src_start": 91097,
+  "src_end": 91512
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShadowRoad",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShadowRoad.cs",
+  "lines": 500,
+  "src_start": 91513,
+  "src_end": 92012
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShadowStepHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShadowStepHeld.cs",
+  "lines": 604,
+  "src_start": 92013,
+  "src_end": 92616
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShadowStepFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShadowStepFx.cs",
+  "lines": 3037,
+  "src_start": 92617,
+  "src_end": 95653
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShivFan",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShivFan.cs",
+  "lines": 1346,
+  "src_start": 95654,
+  "src_end": 96999
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShivStyle",
+  "kind": "enum",
+  "file": "SilentFX.Cards.ShivStyle.cs",
+  "lines": 13,
+  "src_start": 97000,
+  "src_end": 97012
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShivFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShivFx.cs",
+  "lines": 2105,
+  "src_start": 97013,
+  "src_end": 99117
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShivPreviewFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShivPreviewFx.cs",
+  "lines": 43,
+  "src_start": 99118,
+  "src_end": 99160
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "IShivSource",
+  "kind": "interface",
+  "file": "SilentFX.Cards.IShivSource.cs",
+  "lines": 4,
+  "src_start": 99161,
+  "src_end": 99164
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShivHeldFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShivHeldFx.cs",
+  "lines": 46,
+  "src_start": 99165,
+  "src_end": 99210
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "ShivHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.ShivHeld.cs",
+  "lines": 1076,
+  "src_start": 99211,
+  "src_end": 100286
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SkewerFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.SkewerFx.cs",
+  "lines": 2054,
+  "src_start": 100287,
+  "src_end": 102340
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SkewerHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.SkewerHeld.cs",
+  "lines": 99,
+  "src_start": 102341,
+  "src_end": 102439
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SlyGold",
+  "kind": "class",
+  "file": "SilentFX.Cards.SlyGold.cs",
+  "lines": 732,
+  "src_start": 102440,
+  "src_end": 103171
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SnakebiteFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.SnakebiteFx.cs",
+  "lines": 938,
+  "src_start": 103172,
+  "src_end": 104109
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "StatusSteps",
+  "kind": "class",
+  "file": "SilentFX.Cards.StatusSteps.cs",
+  "lines": 1165,
+  "src_start": 104110,
+  "src_end": 105274
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "StormOfSteelFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.StormOfSteelFx.cs",
+  "lines": 246,
+  "src_start": 105275,
+  "src_end": 105520
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "StormHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.StormHeld.cs",
+  "lines": 1074,
+  "src_start": 105521,
+  "src_end": 106594
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "StrangleCardFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.StrangleCardFx.cs",
+  "lines": 40,
+  "src_start": 106595,
+  "src_end": 106634
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "StrangleHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.StrangleHeld.cs",
+  "lines": 157,
+  "src_start": 106635,
+  "src_end": 106791
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "StrangleRope",
+  "kind": "class",
+  "file": "SilentFX.Cards.StrangleRope.cs",
+  "lines": 1429,
+  "src_start": 106792,
+  "src_end": 108220
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressFrames",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressFrames.cs",
+  "lines": 337,
+  "src_start": 108221,
+  "src_end": 108557
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressFx.cs",
+  "lines": 75,
+  "src_start": 108558,
+  "src_end": 108632
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressHeld.cs",
+  "lines": 224,
+  "src_start": 108633,
+  "src_end": 108856
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressLook",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressLook.cs",
+  "lines": 90,
+  "src_start": 108857,
+  "src_end": 108946
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressStage",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressStage.cs",
+  "lines": 398,
+  "src_start": 108947,
+  "src_end": 109344
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressRun",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressRun.cs",
+  "lines": 1265,
+  "src_start": 109345,
+  "src_end": 110609
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SoulCopy",
+  "kind": "class",
+  "file": "SilentFX.Cards.SoulCopy.cs",
+  "lines": 309,
+  "src_start": 110610,
+  "src_end": 110918
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "SuppressShow",
+  "kind": "class",
+  "file": "SilentFX.Cards.SuppressShow.cs",
+  "lines": 1417,
+  "src_start": 110919,
+  "src_end": 112335
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "TheHuntFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.TheHuntFx.cs",
+  "lines": 766,
+  "src_start": 112336,
+  "src_end": 113101
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "TheHuntHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.TheHuntHeld.cs",
+  "lines": 282,
+  "src_start": 113102,
+  "src_end": 113383
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "TimeFreeze",
+  "kind": "class",
+  "file": "SilentFX.Cards.TimeFreeze.cs",
+  "lines": 2068,
+  "src_start": 113384,
+  "src_end": 115451
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "TimeFreezeHover",
+  "kind": "class",
+  "file": "SilentFX.Cards.TimeFreezeHover.cs",
+  "lines": 272,
+  "src_start": 115452,
+  "src_end": 115723
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithCardFire",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithCardFire.cs",
+  "lines": 267,
+  "src_start": 115724,
+  "src_end": 115990
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithFigure",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithFigure.cs",
+  "lines": 1222,
+  "src_start": 115991,
+  "src_end": 117212
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithFigureData",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithFigureData.cs",
+  "lines": 292,
+  "src_start": 117213,
+  "src_end": 117504
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithHeld",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithHeld.cs",
+  "lines": 128,
+  "src_start": 117505,
+  "src_end": 117632
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithHeld2",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithHeld2.cs",
+  "lines": 462,
+  "src_start": 117633,
+  "src_end": 118094
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithFormIntroFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithFormIntroFx.cs",
+  "lines": 1213,
+  "src_start": 118095,
+  "src_end": 119307
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithPlayFx",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithPlayFx.cs",
+  "lines": 1236,
+  "src_start": 119308,
+  "src_end": 120543
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithHeldChoice",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithHeldChoice.cs",
+  "lines": 13,
+  "src_start": 120544,
+  "src_end": 120556
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithSceneWarmup",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithSceneWarmup.cs",
+  "lines": 595,
+  "src_start": 120557,
+  "src_end": 121151
+ },
+ {
+  "namespace": "SilentFX.Cards",
+  "type": "WraithStage",
+  "kind": "class",
+  "file": "SilentFX.Cards.WraithStage.cs",
+  "lines": 732,
+  "src_start": 121152,
+  "src_end": 121883
+ }
+]

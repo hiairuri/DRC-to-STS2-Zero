@@ -1,0 +1,9 @@
+{
+  "MIRROR_PUPIL.title": "Kotodama: Mirror Pupil",
+  "MIRROR_PUPIL.flavor": "What the mirror reflects, the word makes real.",
+  "MIRROR_PUPIL.mirrorStatus": "Mirror Image: {Hp}/{MaxHp} HP",
+  "MIRROR_PUPIL.description": "At the start of each combat, gain [blue]100[/blue] stacks of [b]Pupil Mark[/b] and summon a [b]Mirror Image[/b] (if its HP is above 0). The Mirror Image's initial HP and Max HP equal 30% of yours. Each time you play a card, roll 1d100; on a roll ≤ your Pupil Mark stacks: the Mirror Image Summons 1, and if the card is an Attack, it is played again with the Mirror Image as the damage source. Then lose [blue]25[/blue] Pupil Mark (never below 25). Whenever you heal HP, the Mirror Image also heals half that amount (rounded up).",
+  "MIRROR_PUPIL_ANCIENT.title": "Kotodama: Mirror Pupil",
+  "MIRROR_PUPIL_ANCIENT.flavor": "Deep in the pupil, the mirror realm shines eternal.",
+  "MIRROR_PUPIL_ANCIENT.description": "At the start of each combat, gain [blue]100[/blue] stacks of [b]Pupil Mark[/b] and summon a [b]Mirror Image[/b] (if its HP is above 0). The Mirror Image's initial HP and Max HP equal 30% of yours. Each time you play a card, roll 1d100; on a roll ≤ your Pupil Mark stacks: the Mirror Image Summons 1, and if the card is an Attack, it is played again with the Mirror Image as the damage source. Then lose [blue]15[/blue] Pupil Mark (never below 40). Whenever you heal HP, the Mirror Image also heals half that amount (rounded up)."
+}

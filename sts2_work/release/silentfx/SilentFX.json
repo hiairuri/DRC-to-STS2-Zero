@@ -1,0 +1,11 @@
+{
+  "id": "SilentFX",
+  "name": "刃雨毒潮SilentFX",
+  "author": "奶酪",
+  "description": "为静默猎手卡牌提供视觉特效与补充音效，不修改战斗规则或游戏结果。",
+  "version": "0.72.7",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": false
+}

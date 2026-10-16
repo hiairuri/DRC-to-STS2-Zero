@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-09",
+  "generated": "2026-10-11",
   "project": "龙族(com.zulong.drc.gw) UE4 资产 → 杀戮尖塔2 角色/皮肤 mod：迁移打包清单",
   "source_roots": {
     "DR": "D:/项目/dragonraja",
     "MF": "D:/ModForge"
   },
-  "bundle_layout": "<dest>/项目/dragonraja/... 与 <dest>/ModForge/... 保持为同级目录（保留中文目录名 项目）：LingChar.csproj 的跨仓相对引用 ..\\..\\..\\项目\\dragonraja\\sts2_work\\DRCSpineDye\\dll\\DyeFramework.cs 才能免改命中",
+  "bundle_layout": "<dest>/项目/dragonraja/... 单树即自足（2026-10-16 迁移后）：LingChar 与 MirrorPupil 两 spike 已由 ModForge/spikes/ 迁入 项目/dragonraja/spikes/（条目 61：DyeFramework 已废案删除，影子源码存档 LingChar/ShadowSource_Archived.cs 只读不编译）；旧 MF 根仅余 ArtProbe / P0Minimal（与本树无关）。中文目录名 项目 仍不可改（既有脚本与历史文档均按该名定位）",
   "tiers": {
     "1": "必须：重建 LingChar + LingSilentSkin 两个 mod、延续既有研究链的最小集",
     "2": "高价值：研究输入/参考库（可重生成但耗时、或依赖旧版本文件）",
@@ -13,22 +13,22 @@
   },
   "artifacts": [
     {
-      "dst": "项目/dragonraja/sts2_work/LingSilentSkin_battle/LingSilentSkin.pck",
+      "dst": "项目/dragonraja/sts2_work/source/LingSilentSkin_battle/LingSilentSkin.pck",
       "sha256": "7f751f119db9308d92095974175cc9a21a19b9de3a0ad79c8765177d113bc1ed",
       "size": 20210510,
       "note": "皮肤 mod 最终产物（与已安装 Mods/LingSilentSkin 逐字节一致）"
     },
     {
-      "dst": "ModForge/spikes/LingChar/LingChar.pck",
-      "sha256": "98f92044631af51285568c2e599d6ff49c8aa57568639c1aa546fb9ea97fcad6",
-      "size": 23539482,
-      "note": "角色 mod 最终 pck（203 条，去污染架构产物）；2026-10-11 条目53 重基线（dir_rot_fix=7.81 注入，δ 定案产物；与已安装 Mods/LingChar 逐字节一致）"
+      "dst": "项目/dragonraja/spikes/LingChar/LingChar.pck",
+      "sha256": "d7be69ff886010b8155365ea24d9015508f32ad3b033e4d4de9887315567e272",
+      "size": 24179275,
+      "note": "角色 mod 最终 pck（227 条，去污染架构产物）；2026-10-16 spike 入树后重建重基线（与条目 59 逐字节相同⇒搬运零影响；与已安装 Mods/LingChar 逐字节一致）"
     },
     {
-      "dst": "ModForge/spikes/LingChar/bin/Release/net9.0/LingChar.dll",
-      "sha256": "5f1b27fa8bf99825fba8b02410e7558f91230296fe6e9ac1c94966a02ecb1fdd",
-      "size": 122880,
-      "note": "角色 mod 最终 dll（含 DyeFramework + MirrorPupil + Harmony patches）；2026-10-11 条目53 重基线（与条目52 诊断构建同字节，δ 修复仅动 config）"
+      "dst": "项目/dragonraja/spikes/LingChar/bin/Release/net9.0/LingChar.dll",
+      "sha256": "559b231ce074ab4773e97a21cef6a5cf904432ec1d507d089cdd25c41bb56368",
+      "size": 138240,
+      "note": "角色 mod 最终 dll（MirrorPupil + Harmony patches；DyeFramework 已随条目 61 废案删除，重建后重基线）"
     }
   ],
   "items": [
@@ -120,9 +120,9 @@
     {
       "tier": 1,
       "root": "DR",
-      "rel": "sts2_work/LingSilentSkin_battle",
+      "rel": "sts2_work/source/LingSilentSkin_battle",
       "kind": "dir",
-      "dst": "项目/dragonraja/sts2_work/LingSilentSkin_battle",
+      "dst": "项目/dragonraja/sts2_work/source/LingSilentSkin_battle",
       "exclude": [
         "scratch"
       ],
@@ -131,9 +131,9 @@
     {
       "tier": 1,
       "root": "DR",
-      "rel": "sts2_work/LingSilentSkin_mod",
+      "rel": "sts2_work/source/LingSilentSkin_mod",
       "kind": "dir",
-      "dst": "项目/dragonraja/sts2_work/LingSilentSkin_mod",
+      "dst": "项目/dragonraja/sts2_work/source/LingSilentSkin_mod",
       "exclude": [
         "installed_backup",
         "installed_urban_swap",
@@ -148,20 +148,6 @@
       "kind": "dir",
       "dst": "项目/dragonraja/sts2_work/pck_silent_scenes",
       "role": "游戏 vanilla 场景/材质/图标模板（build_lingchar 的 TPL：silent/osty 场景、图标、手势、转场材质）"
-    },
-    {
-      "tier": 1,
-      "root": "DR",
-      "rel": "sts2_work/DRCSpineDye",
-      "kind": "dir",
-      "dst": "项目/dragonraja/sts2_work/DRCSpineDye",
-      "exclude": [
-        "bin",
-        "obj",
-        "scratch",
-        "scratch2"
-      ],
-      "role": "DyeFramework.cs 单一事实源（被 LingChar.csproj 源码级包含）+ drc_dye 资源树（构建期并入 LingChar.pck）"
     },
     {
       "tier": 1,
@@ -281,10 +267,10 @@
     },
     {
       "tier": 1,
-      "root": "MF",
+      "root": "DR",
       "rel": "spikes/LingChar",
       "kind": "dir",
-      "dst": "ModForge/spikes/LingChar",
+      "dst": "项目/dragonraja/spikes/LingChar",
       "exclude": [
         "obj",
         "icon_import_scratch"
@@ -293,10 +279,10 @@
     },
     {
       "tier": 1,
-      "root": "MF",
+      "root": "DR",
       "rel": "spikes/MirrorPupil",
       "kind": "dir",
-      "dst": "ModForge/spikes/MirrorPupil",
+      "dst": "项目/dragonraja/spikes/MirrorPupil",
       "exclude": [
         "obj",
         "bin"
@@ -690,17 +676,17 @@
     {
       "tier": 3,
       "root": "DR",
-      "rel": "sts2_work/LingSilentSkin_mod/installed_backup",
+      "rel": "sts2_work/source/LingSilentSkin_mod/installed_backup",
       "kind": "dir",
-      "dst": "项目/dragonraja/sts2_work/LingSilentSkin_mod/installed_backup",
+      "dst": "项目/dragonraja/sts2_work/source/LingSilentSkin_mod/installed_backup",
       "role": "旧安装备份（30M）"
     },
     {
       "tier": 3,
       "root": "DR",
-      "rel": "sts2_work/LingSilentSkin_mod/installed_urban_swap",
+      "rel": "sts2_work/source/LingSilentSkin_mod/installed_urban_swap",
       "kind": "dir",
-      "dst": "项目/dragonraja/sts2_work/LingSilentSkin_mod/installed_urban_swap",
+      "dst": "项目/dragonraja/sts2_work/source/LingSilentSkin_mod/installed_urban_swap",
       "role": "urban 换装备份"
     },
     {
@@ -709,7 +695,7 @@
       "rel": "sts2_work/disabled_mods",
       "kind": "dir",
       "dst": "项目/dragonraja/sts2_work/disabled_mods",
-      "role": "退役 mod 安装副本（DRCSpineDye/LingUrbanSkin；源码另有）"
+      "role": "退役 mod 安装副本（DRCSpineDye/LingUrbanSkin；源码已随条目 61 废案删除）"
     },
     {
       "tier": 3,
@@ -802,22 +788,15 @@
       "file": "ModForge/spikes/LingChar/build_lingchar.py",
       "line": 404,
       "const": "spike_loc",
-      "cur": "D:\\ModForge\\spikes\\MirrorPupil\\loc\\localization",
-      "to": "新 <dest>/ModForge/..."
+      "cur": "旧树外绝对路径 D:/ModForge/spikes/MirrorPupil/loc/localization",
+      "to": "2026-10-16 已改：同级相对引用 ROOT.parent/'MirrorPupil/loc/localization'"
     },
     {
       "file": "ModForge/spikes/LingChar/build_lingchar.py",
       "line": 410,
       "const": "mirror_fx",
-      "cur": "D:\\ModForge\\spikes\\MirrorPupil\\pcksrc\\effects\\mirror",
-      "to": "新 <dest>/ModForge/..."
-    },
-    {
-      "file": "ModForge/spikes/LingChar/build_lingchar.py",
-      "line": 421,
-      "const": "dye_pcksrc",
-      "cur": "D:\\项目\\dragonraja\\sts2_work\\DRCSpineDye\\pcksrc",
-      "to": "新 <dest>/项目/dragonraja/..."
+      "cur": "旧树外绝对路径 D:/ModForge/spikes/MirrorPupil/pcksrc/effects/mirror",
+      "to": "2026-10-16 已改：同级相对引用 ROOT.parent/'MirrorPupil/pcksrc/effects/mirror'"
     },
     {
       "file": "ModForge/spikes/LingChar/LingChar.csproj",
@@ -825,13 +804,6 @@
       "const": "GameAssemblyDir",
       "cur": "D:\\Program Files (x86)\\Steam\\steamapps\\common\\Slay the Spire 2\\data_sts2_windows_x86_64",
       "to": "目标机游戏路径"
-    },
-    {
-      "file": "ModForge/spikes/LingChar/LingChar.csproj",
-      "line": 24,
-      "const": "Compile Include DyeFramework.cs",
-      "cur": "..\\..\\..\\项目\\dragonraja\\sts2_work\\DRCSpineDye\\dll\\DyeFramework.cs",
-      "to": "保持包布局（项目/ 与 ModForge/ 同级）即免改"
     },
     {
       "file": "项目/dragonraja/tools/build_battle_pck.py",
@@ -914,18 +886,18 @@
     "skin_mod": [
       "cd <dest>/项目/dragonraja",
       "python tools/build_battle_pck.py",
-      "→ 产物 sts2_work/LingSilentSkin_battle/LingSilentSkin.pck；sha256 应=7f751f119db9308d92095974175cc9a21a19b9de3a0ad79c8765177d113bc1ed",
+      "→ 产物 sts2_work/source/LingSilentSkin_battle/LingSilentSkin.pck；sha256 应=7f751f119db9308d92095974175cc9a21a19b9de3a0ad79c8765177d113bc1ed",
       "部署：copy LingSilentSkin_mod/LingSilentSkin.json + LingSilentSkin.pck → <游戏>/Mods/LingSilentSkin/"
     ],
     "lingchar_mod": [
-      "cd <dest>/ModForge/spikes/LingChar",
+      "cd <dest>/项目/dragonraja/spikes/LingChar",
       "python build_lingchar.py   # 装配 pcksrc → dotnet 编译 → 打包 → 安装到 Mods/LingChar",
       "→ LingChar.pck sha256 应=44460388f28eeb14bac22f3838d582d7ee9945adfc6f2fce1d4c321072c6f774；bin/Release/net9.0/LingChar.dll sha256 应=ee52017e3b5db60359906474f1d6e342ed18c279ed5f47b63c787279597daaa9"
     ],
     "repack_only": "python _migration/repack_pck.py <pcksrc_dir> <out.pck>  （无 Godot 时从既有素材树直接重打包）"
   },
   "in_game_checks": [
-    "战斗：Ling 渲染走 drc_dye/profiles/ling/animations/characters/ling/config.json（hat/影子/溶解/闪红/入场挂载），日志锚点 [DRCSpineDye] 应指向 characters/ling",
+    "战斗：dye 框架已废案（条目 61，2026-10-16）——影子/溶解/闪红/入场/攻击/命中特效不再存在，日志不应再出现 [DRCSpineDye] 挂载行；影子源码存档=LingChar/ShadowSource_Archived.cs",
     "镜像：言灵·镜瞳召唤物 1:1 大小、反相负片材质（MySpineUnlitHit 运行时 darkenParam=0 语义）",
     "选人：Ling 立绘 + entry 入场时序（[LingSelect] 日志）、additive/multiply 修复材质生效",
     "篝火 (-2,226)@0.608 校准、商人场景、顶栏图标=linglogo、队伍竖条=user art",

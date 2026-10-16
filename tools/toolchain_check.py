@@ -110,7 +110,9 @@ DR_RE = re.compile(r'^[Dd]:[\\/]项目[\\/]dragonraja[\\/]?')
 MF_RE = re.compile(r'^[Dd]:[\\/]ModForge[\\/]?')
 ENV_RE = re.compile(r'^[Dd]:[\\/](Tools|Program)[\\/]?|steam', re.I)
 scripts = sorted(TOOLS.glob('*.py'))
-bl = Path(r'D:\ModForge\spikes\LingChar\build_lingchar.py')
+# 2026-10-16：LingChar / MirrorPupil 两 spike 已由旧树（仓库外）迁入本树，
+# 构建脚本随之改为树内路径（旧 AbsMod 前缀引用已全部撤销）。
+bl = ROOT / 'spikes' / 'LingChar' / 'build_lingchar.py'
 if bl.exists():
     scripts.append(bl)
 
@@ -139,9 +141,10 @@ for sp in scripts:
                     n_miss_expected += 1
                     record('WARN', f'[{sp.name}] 预期外缺失（T2/T3 未随迁）: {rel}')
         elif MF_RE.match(lit):
+            # 迁移完成后 DR 树内任何脚本都不应再引用 ModForge；命中即 FAIL
+            # （不再区分"存在与否"——ModForge 侧仅余 ArtProbe/P0Minimal 且与本树无关）
             n_checked += 1
-            if not Path(lit).exists():
-                record('FAIL', f'[{sp.name}] ModForge 引用缺失: {lit}')
+            record('FAIL', f'[{sp.name}] 迁移后仍残留 ModForge 引用: {lit}')
         elif ENV_RE.search(lit):
             if not Path(lit).exists():
                 # 可能是被空格截断的前缀片段（如 "D:/Program" ← "D:/Program Files (x86)/..."）：
@@ -168,7 +171,7 @@ def pck_count(p: Path) -> int:
 
 
 SKIN_SHA = '7f751f119db9308d92095974175cc9a21a19b9de3a0ad79c8765177d113bc1ed'
-sk = ROOT / 'sts2_work' / 'LingSilentSkin_battle' / 'LingSilentSkin.pck'
+sk = ROOT / 'sts2_work' / 'source' / 'LingSilentSkin_battle' / 'LingSilentSkin.pck'
 if sk.exists():
     try:
         ok(f'[4] 皮肤 pck 解析 {pck_count(sk)} 条')
@@ -201,13 +204,11 @@ critical = [
     'tools/build_battle_pck.py',
     'tools/build_cast_rework.py',
     'tools/build_pdling_select.py',
-    'sts2_work/LingSilentSkin_battle/pcksrc/ling/animations/characters/silent/ling.json',
-    'sts2_work/LingSilentSkin_battle/pcksrc/animations/character_select/silent/entry_player.gd',
-    'sts2_work/LingSilentSkin_battle/pcksrc/scenes/screens/char_select/char_select_bg_silent.tscn',
-    'sts2_work/LingSilentSkin_mod/_pcksrc/ling/animations/characters/silent/ling.json',
+    'sts2_work/source/LingSilentSkin_battle/pcksrc/ling/animations/characters/silent/ling.json',
+    'sts2_work/source/LingSilentSkin_battle/pcksrc/animations/character_select/silent/entry_player.gd',
+    'sts2_work/source/LingSilentSkin_battle/pcksrc/scenes/screens/char_select/char_select_bg_silent.tscn',
+    'sts2_work/source/LingSilentSkin_mod/_pcksrc/ling/animations/characters/silent/ling.json',
     'sts2_work/pck_silent_scenes/scenes/creature_visuals/silent.tscn',
-    'sts2_work/DRCSpineDye/dll/DyeFramework.cs',
-    'sts2_work/DRCSpineDye/pcksrc/drc_dye/profiles/ling/animations/characters/silent/config.json',
     'render_work/battle_capture/captured_tex827.png',
     'render_work/lingUI/启灵卡_镜瞳_未觉醒_大图.png',
     'render_work/pd_ling2/s_plotdrawing',

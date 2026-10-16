@@ -1,0 +1,18 @@
+=== SilentFX log 2026-10-16 00:44:08 ===
+00:44:08.339 [INFO] SilentFX v0.72.7.0 initializing
+00:44:08.345 [INFO] PlayerSettings: loaded user_settings.ini
+00:44:08.347 [INFO] Game capabilities: Shiv creation args=3, Poison trigger=False, Concoct=False, Expertise retain FX=False
+00:44:08.348 [WARN] [MP] Exact targeting unavailable; using native peer input: game handshake version metadata is absent
+00:44:08.348 [INFO] HandPace: preference slow; effective slow
+00:44:08.349 [INFO] HandPace: RitsuLib settings are available at Settings > Mod设置（RitsuLib）> SilentFX
+00:44:08.359 [INFO] Sfx ready: 41 sound(s), 0 picked by hand, 0 number(s) set in the panel
+00:44:08.361 [INFO] Power FX unavailable in this game build: ConcoctPower
+00:44:08.361 [INFO] PowerFxManager ready, 26 power effect(s) registered
+00:44:08.364 [INFO] HeldFxManager ready, 34 standby effect(s) registered
+00:44:08.366 [INFO] Card FX unavailable in this game build: Fade
+00:44:08.366 [INFO] Card FX unavailable in this game build: Sidestep
+00:44:08.367 [INFO] CardFxManager ready, 55 card effect(s) registered
+00:44:08.370 [INFO] HandMoves ready
+00:44:08.664 [INFO] Harmony patched methods: 80, failed classes: 0 (+ 83 of the game's effect factories watched for Bullet Time)
+00:44:08.675 [INFO] AttackFeed: 7 patch(es) installed
+00:44:08.675 [INFO] Init finished

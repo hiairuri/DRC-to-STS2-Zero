@@ -32,3 +32,14 @@ drcbingpinzhuan.apk
 # ---- 构建产物（可从源码复现）----
 sts2_work/DRCSpineDye/dll/bin/
 sts2_work/DRCSpineDye/dll/obj/
+
+# ---- .NET 构建缓存（2026-10-16：两 spike 入树后新增，避免入仓）----
+spikes/LingChar/bin/
+spikes/LingChar/obj/
+spikes/MirrorPupil/bin/
+spikes/MirrorPupil/obj/
+
+# ---- 构建中间产物（不进仓）----
+spikes/LingChar/pcksrc_old_*/
+spikes/LingChar/icon_import_scratch/
+__pycache__/
