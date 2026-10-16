@@ -1,82 +1,64 @@
-项目指令 · 权威副本（2026-10-16 修订，纯文本）
-
+项目指令 · 权威副本（2026-10-16 全量重写，纯文本）
 说明：项目设置里注入的【项目指令】为服务端下发、无法由 agent 直接改写；本文件是权威副本，与
-项目状态交接.md、光影层移植计划.md 同步维护。新会话若发现注入版与本文件冲突，以本文件为准。
-修订依据：主日志条目 60（两 spike 迁入主树）、61（特效全线废案 + 皮肤 mod 退役）、62（启动崩溃修复 + spike 源码树迁 sts2_work/source），均 2026-10-16；
-          条目 61（特效全线废案定案 + 皮肤 mod 退役，2026-10-16 下午，用户三项确认）。
+项目状态交接.md、光影层移植计划.md 同步维护。注入版与本文件冲突时，以本文件为准。
 
-【项目】龙族·零 → 杀戮尖塔2 Mod 移植（2026-10-16 条目 61 修订版）
-
+【项目】龙族·零 → 杀戮尖塔2 Mod 移植
 目标：把《龙族卡塞尔之门》（UE4 手游 com.zulong.drc.gw）的角色“零”移植为《杀戮尖塔2》（Godot）的 mod：
-- LingChar = 可玩角色 + 镜瞳遗物（镜像召唤）
-- 【条目 61 废案】DyeFramework（影子/溶解/闪红/入场）与攻击/命中特效全部删除；
-  影子源码存档 spikes/LingChar/ShadowSource_Archived.cs（只读、不编译）；
-  特效重建将以 SilentFX 参考模组（sts2_work/note|source|release/silentfx/）为模板，另立条目。
-- 【条目 61 退役】LingSilentSkin 皮肤 mod 不再发布（用户定案「只保留 spine 素材，不要皮肤 mod」）；
-  皮肤源树仅作为 LingChar 构建期的 spine 素材来源保留在 sts2_work/source/。
+- LingChar = 可玩角色 + 言灵·镜瞳遗物（镜像召唤）
+- 特效（影子/溶解/闪红/入场/攻击/命中）已于 2026-10-16 全线废案删除，
+  重建以 SilentFX 参考 mod 为模板：sts2_work\note\silentfx\00_挖掘总报告.md（13 份挖掘报告入口）
+  + 12_transplant.md（P0-P3 移植清单），开工时另立条目
+- LingSilentSkin 皮肤 mod 已退役（只保留 spine 素材作 LingChar 构建源）
 
-目录布局（2026-10-16 下午用户重组后）：
+目录布局：
 工作树 D:\项目\dragonraja（git 仓，现状树）
-构建工程 D:\项目\dragonraja\sts2_work\source\LingChar（含影子源码存档 ShadowSource_Archived.cs；2026-10-16 晚自 spikes/ 迁入）
-镜瞳 spike D:\项目\dragonraja\sts2_work\source\MirrorPupil（源码级被 LingChar.csproj 包含）
-sts2_work\source\ = 皮肤源树（LingSilentSkin_battle/_mod，仅作 LingChar 素材来源）
-                  + silentfx（SilentFX 反编译 C# 全源，357 文件）
-sts2_work\note\silentfx\ = SilentFX 深度挖掘 13 份报告（00_挖掘总报告.md 为入口，已只读）
-sts2_work\release\silentfx\ = SilentFX mod 发布件（dll/json/log，已只读）
-sts2_work\decomp、pck_silent_scenes、mirror_review_2026-10-11 = 既有参考（未动）
-tools\ = 全工具链；D:\项目\dragonraja2 与 D:\ModForge\spikes\LingChar 等旧位已由用户清理/迁走
+构建工程 D:\项目\dragonraja\sts2_work\source\LingChar（含影子源码存档 ShadowSource_Archived.cs，只读不编译）
+镜瞳 spike D:\项目\dragonraja\sts2_work\source\MirrorPupil（源码级被 LingChar.csproj 以 ..\MirrorPupil 同级相对包含）
+sts2_work\source\ = 全部源树（LingChar / MirrorPupil / LingSilentSkin_battle|_mod 素材源 / silentfx 反编译源码）
+sts2_work\note\ 与 release\ = SilentFX 参考模组（13 份挖掘报告 / 发布件，整体只读）
+sts2_work\decomp\、pck_silent_scenes\ = 游戏 C# 反编译（API 查询）、vanilla 场景模板（构建 TPL）
+tools\ = 全工具链；游戏 = Steam STS2 v0.107.1
 
 【铁律·必须遵守】
-
-1. 渲染参数只准来自「源码 / 资产(uasset·uexp·GLSL) / 运行时hook」三链路；禁止截图反解常数、禁止猜测材质参数。查不到就写“未确证”，不得填数字。
-2. 去污染（条目 61 修订）：LingChar.pck 不得引入废案资产路径（drc_dye/hitfx/attack_fx 零残留，
-   包内校验 2026-10-16 通过=102 条目零残留）；皮肤 mod 已退役，不存在双 pck 交集问题。
-3. 目录名不可改：「项目\dragonraja」的中文名“项目”不可改（脚本与历史文档都按该名定位）。
-   【条目 61 作废】原「sts2_work\DRCSpineDye\dll\DyeFramework.cs 为框架单一事实源」条款——
-   该文件已随废案删除，影子源码唯一存档=ShadowSource_Archived.cs（只读，重建时再立新源）。
+1. 渲染参数只准来自「源码 / 资产(uasset·uexp·GLSL) / 运行时hook」三链路；禁止截图反解常数、
+   禁止猜测材质参数。查不到就写“未确证”，不得填数字。
+2. LingChar.pck 不得引入废案资产路径（drc_dye / hitfx / attack_fx 零残留，改后有包内校验）；
+   不引入与任何在装 mod 共享的资源路径。
+3. 目录名不可改：「项目\dragonraja」的中文名“项目”不可改（脚本与历史文档均按该名定位）。
 4. 改任何构建脚本后必跑：python D:\项目\dragonraja\tools\toolchain_check.py，要求 FAIL=0
-   （2026-10-16 废案后实测 WARN 6 条：4 条“T2/T3未随迁”+ 皮肤重建引用 WARN + 游戏侧皮肤 pck 未装 WARN；
-   皮肤 pck 本体在 sts2_work/source/LingSilentSkin_battle/ 且 sha 基线校验 PASS）。
+   （预期 WARN 6 条：4 条“T2/T3未随迁” + 皮肤重建引用 1 条 + 游戏侧皮肤 pck 未装 1 条）。
 
 【环境】
-
 游戏 Steam STS2 v0.107.1；Godot 4.7.2-stable mono console（D:\Tools\Godot）；.NET 9 SDK；
 Python 3.10（C:\Program Files\Python310\python.exe，已装 pillow/numpy/zstandard/psutil）；
 Spine 运行时 = 自研 spine-godot 4.2.43。
 
 【构建与验证】
-
-- 角色：cd D:\项目\dragonraja\sts2_work\source\LingChar && python build_lingchar.py（装配→dotnet→打包→安装）
-  （皮肤源树素材现已指向 sts2_work\source\LingSilentSkin_battle\pcksrc；皮肤 mod 构建链退役）
+- 角色：cd D:\项目\dragonraja\sts2_work\source\LingChar && python build_lingchar.py
+  （装配→fix_spine_baked_paths 自动补 spine 烘焙路径存根→dotnet→打包→安装）
 - 重跑构建前必须先 mv icon_import_scratch scratch_old_<ts>：否则 Mimosa safe-delete 钩子拦
-  rmtree（count>50）会让脚本静默中断（2026-10-16 已复现）。
-- 产物基线 sha256（2026-10-16 条目 61 废案重建后刷新；重建应逐字节复现）：
-  LingChar.pck 232624f8…（22,921,944B / 110 条=102+8 存根；条目 62 spine 烘焙路径 remap 存根；包内校验 drc_dye/hitfx/attack_fx 零残留）
-  LingChar.dll 8a1780d0…（49,152B；DyeFramework/攻击/命中代码已剥离）
-  LingChar.json dd76bd33…（472B，未变）
-  历史基线（已作废，仅供归因）：pck 3ea68992…/44460388…、dll 17ca0e61…/ee52017e…、
-  LingSilentSkin.pck 7f751f11…（皮肤 mod 退役，pck 仍在 source 树作素材源）。
+  rmtree（count>50）会让脚本静默中断。
+- 产物基线 sha256（重建应逐字节复现）：
+  LingChar.pck 232624f8…（22,921,944B / 110 条）
+  LingChar.dll 8a1780d0…（49,152B）
+  LingChar.json dd76bd33…（472B）
 - 判定口径：dll sha 会随构建目录变化（.NET 把 PDB 绝对路径写进调试壳，用户 IL 零差异），
   跨目录迁移后按“尺寸一致 + IL 无差异”判定，而非 sha 相同。
-- 日志 %APPDATA%\Roaming\SlayTheSpire2\logs\godot.log，锚点 [LingSelect]/[LingWarm]/[MirrorPupil]
-  （[DRCSpineDye] 锚点随废案消失，日志中不应再出现）。
+- 游戏日志 %APPDATA%\Roaming\SlayTheSpire2\logs\godot.log，锚点 [LingSelect]/[LingWarm]/[MirrorPupil]；
+  崩溃用 sentry 转储定位：%APPDATA%\Roaming\SlayTheSpire2\sentry\<uuid>.run\__sentry-event + __sentry-breadcrumb1。
 
 【先读】
-
-1. D:\项目\dragonraja\项目状态交接.md（总览 + 关键事实库 + 铁律）
-2. D:\项目\dragonraja\光影层移植计划.md（全部决策史，条目 1-61；新条目按文件末尾实时最大编号顺延，勿用旧的 30/46）
-3. D:\项目\dragonraja\spikes\_move_manifest.md（迁移映射 / 改点表 / 回滚方法）
-4. D:\项目\dragonraja\tools\toolchain_manifest.json（机读：分级清单 + 产物基线 + 重建步骤 + 路径改点表）
-   注：旧指令中的 _migration\迁移说明.md 已不存在（瘦身后缺失），不要去读它。
+1. D:\项目\dragonraja\项目状态交接.md（总览 + 关键事实库）
+2. D:\项目\dragonraja\光影层移植计划.md（全部决策史，条目 1-62；新条目按文件末尾实时最大编号顺延）
+3. D:\项目\dragonraja\tools\toolchain_manifest.json（机读：分级清单 + 产物基线 + 路径表）
+4. D:\项目\dragonraja\sts2_work\note\silentfx\00_挖掘总报告.md（特效重建知识库入口，12_transplant.md 为落地清单）
 
 【输出规范】
-
 - 全程中文；结论先行并附证据（文件:行号、资产路径、日志行），查不到就查工具而不是猜数值。
 - 重大决策/踩坑向「光影层移植计划.md」追加编号条目；每次改动做落盘或包内校验
   （PCK v3 规则：目录偏移 @0x20、条目偏移相对 file_base=0x70，读内容必须 pck[file_base+fo]）。
 
 【协作方式】
-
 用户采用主控式工作流：agent 担任主控，委派专家 agent 承担调研 / 方案设计 / 编写 / 审查，
-用户只做版本验收；主控不亲自查资料、不亲自写代码。重大分叉（如是否做运行时 hook 捕获）
-须先向用户确认；破坏性操作（清理旧目录、git 提交等）须经用户明确同意后执行。
+用户只做版本验收；主控不亲自查资料、不亲自写代码。重大分叉须先向用户确认；
+破坏性操作（清理旧目录、git 提交等）须经用户明确同意后执行。
