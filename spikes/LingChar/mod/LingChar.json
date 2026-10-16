@@ -1,0 +1,12 @@
+{
+  "id": "LingChar",
+  "name": "零 (Ling) - Dragon Raja Character",
+  "author": "ModForge spike",
+  "description": "Dragon Raja's Ling as a playable character. Card pool: colorless (temporary). Starting deck: 6 Strikes + 4 Defends. Visual model reuses the LingSilentSkin spine assets and the DRCSpineDye decoration profile.",
+  "version": "0.1.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [],
+  "affects_gameplay": true,
+  "min_game_version": "0.107.1"
+}

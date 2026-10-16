@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>LingChar</AssemblyName>
+    <RootNamespace>LingChar</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <!-- The game ships its own runtime; never copy our references into the mod folder. -->
+    <GameAssemblyDir Condition="'$(GameAssemblyDir)' == ''">D:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64</GameAssemblyDir>
+    <NoWarn>$(NoWarn);CS0436</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="src\**\*.cs" />
+    <!-- 言灵·镜瞳遗物（MirrorPupil spike）以源码级集成：单一事实源留在 spike，本工程直接编译 -->
+    <Compile Include="..\MirrorPupil\src\**\*.cs" />
+    <!-- dye 框架（影子/溶解/闪红/入场/攻击/命中）已废案（条目 61，2026-10-16）：
+         DyeFramework.cs 已删除，影子源码存档见 ShadowSource_Archived.cs（只读、不编译）。 -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="sts2">
+      <HintPath>$(GameAssemblyDir)\sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>$(GameAssemblyDir)\GodotSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameAssemblyDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

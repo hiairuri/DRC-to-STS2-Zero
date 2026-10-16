@@ -1,0 +1,23 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=7 format=3 uid="uid://d0lingcharm001"]
+
+[ext_resource type="SpineAtlasResource" path="res://ling/animations/characters/mirror/ling.atlas" id="1_matl"]
+[ext_resource type="SpineSkeletonFileResource" path="res://ling/animations/characters/mirror/ling.json" id="2_mskl"]
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_mhurt1"]
+from = "hurt"
+to = "hurt"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_mhurt2"]
+from = "hurt"
+to = "die"
+
+[sub_resource type="SpineAnimationMix" id="SpineAnimationMix_midle1"]
+from = "idle_loop"
+to = "hurt"
+mix = 0.02
+
+[resource]
+atlas_res = ExtResource("1_matl")
+skeleton_file_res = ExtResource("2_mskl")
+default_mix = 0.05
+animation_mixes = [SubResource("SpineAnimationMix_mhurt1"), SubResource("SpineAnimationMix_mhurt2"), SubResource("SpineAnimationMix_midle1")]

@@ -1,0 +1,9 @@
+{
+  "MIRROR_PUPIL.title": "言灵·镜瞳",
+  "MIRROR_PUPIL.flavor": "镜中所映，即是言出法随的凭据。",
+  "MIRROR_PUPIL.mirrorStatus": "镜像状态：{Hp}/{MaxHp}",
+  "MIRROR_PUPIL.description": "每场战斗开始时，你获得[blue]100[/blue]层[b]瞳印[/b]并召唤[b]镜像[/b]（若其生命大于0）。镜像的初始生命及生命上限为你生命上限的30%。每次打出牌时1d100≤瞳印层数，成功：使镜像召唤1，且若此牌为攻击牌，则再次打出此牌，伤害来源视为镜像，然后瞳印层数减少[blue]25[/blue]（不低于25）。角色恢复生命时，镜像也恢复该数值的一半（向上取整）。",
+  "MIRROR_PUPIL_ANCIENT.title": "言灵·镜瞳",
+  "MIRROR_PUPIL_ANCIENT.flavor": "瞳孔深处，镜界长明。",
+  "MIRROR_PUPIL_ANCIENT.description": "每场战斗开始时，你获得[blue]100[/blue]层[b]瞳印[/b]并召唤[b]镜像[/b]（若其生命大于0）。镜像的初始生命及生命上限为你生命上限的30%。每次打出牌时1d100≤瞳印层数，成功：使镜像召唤1，且若此牌为攻击牌，则再次打出此牌，伤害来源视为镜像，然后瞳印层数减少[blue]15[/blue]（不低于40）。角色恢复生命时，镜像也恢复该数值的一半（向上取整）。"
+}

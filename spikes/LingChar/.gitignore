@@ -1,0 +1,17 @@
+# 构建产物（build_lingchar.py 可从 pcksrc/src 复现）
+bin/
+obj/
+.vs/
+*.user
+LingChar.pck
+icon_import_scratch/
+
+# Godot 导入缓存（由源 png+.import 可再生）
+pcksrc/.godot/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 构建改名残留（pcksrc_old_*，可手删）
+pcksrc_old_*/

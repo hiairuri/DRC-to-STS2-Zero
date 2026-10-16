@@ -1,0 +1,18 @@
+{
+  "LING.aromaPrinciple": "[sine][blue]……枪声……狩猎……终结……[/blue][/sine]",
+  "LING.banter.alive.endTurnPing": "[sine]……[/sine]",
+  "LING.banter.dead.endTurnPing": "……",
+  "LING.cardsModifierDescription": "无色牌现在会出现在奖励和商店中。",
+  "LING.cardsModifierTitle": "零的卡牌",
+  "LING.architectLine": "狩猎告一段落……暂时。",
+  "LING.description": "一位来自尖塔之外的猎手。\n她的枪记得每一个目标。",
+  "LING.eventDeathPrevention": "狩猎还没有结束……",
+  "LING.goldMonologue": "[sine]每一枚金币都带着主人的故事……[/sine]",
+  "LING.possessiveAdjective": "她的",
+  "LING.pronounObject": "她",
+  "LING.pronounPossessive": "她的",
+  "LING.pronounSubject": "她",
+  "LING.title": "零",
+  "LING.titleObject": "零",
+  "LING.unlockText": "进行一局游戏来解锁这个角色。"
+}

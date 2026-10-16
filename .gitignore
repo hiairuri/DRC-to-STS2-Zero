@@ -43,3 +43,6 @@ spikes/MirrorPupil/obj/
 spikes/LingChar/pcksrc_old_*/
 spikes/LingChar/icon_import_scratch/
 __pycache__/
+
+# ---- 条目61收尾：LingChar 嵌套仓（ModForge 时代）历史备份（外置，不入主仓）----
+spikes/_lingchar_git_history_backup/

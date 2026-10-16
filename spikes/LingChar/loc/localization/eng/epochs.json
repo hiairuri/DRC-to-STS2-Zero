@@ -1,0 +1,12 @@
+{
+  "LING1_EPOCH.description": "The first mark on the mirror.",
+  "LING1_EPOCH.unlockText": "Defeat the Act 1 boss.",
+  "LING2_EPOCH.description": "A bullet for every promise.",
+  "LING2_EPOCH.unlockText": "Defeat the Act 2 boss.",
+  "LING3_EPOCH.description": "The hunt continues beyond the fog.",
+  "LING3_EPOCH.unlockText": "Defeat the Act 3 boss.",
+  "LING4_EPOCH.description": "Every ending is a beginning.",
+  "LING4_EPOCH.unlockText": "Complete the run.",
+  "LING5_EPOCH.description": "The mirror remembers.",
+  "LING5_EPOCH.unlockText": "Defeat 15 Elites."
+}

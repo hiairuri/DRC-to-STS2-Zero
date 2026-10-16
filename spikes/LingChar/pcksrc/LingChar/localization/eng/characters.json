@@ -1,0 +1,18 @@
+{
+  "LING.aromaPrinciple": "[sine][blue]...the gun...the hunt...the end...[/blue][/sine]",
+  "LING.banter.alive.endTurnPing": "[sine]......[/sine]",
+  "LING.banter.dead.endTurnPing": "......",
+  "LING.cardsModifierDescription": "Colorless cards will now appear in rewards and shops.",
+  "LING.cardsModifierTitle": "Ling Cards",
+  "LING.architectLine": "The hunt ends... for now.",
+  "LING.description": "A hunter from beyond the Spire.\nHer rifle remembers every target.",
+  "LING.eventDeathPrevention": "The hunt is not over yet...",
+  "LING.goldMonologue": "[sine]Every piece of gold has its owner's story...[/sine]",
+  "LING.possessiveAdjective": "her",
+  "LING.pronounObject": "her",
+  "LING.pronounPossessive": "her",
+  "LING.pronounSubject": "she",
+  "LING.title": "Ling",
+  "LING.titleObject": "Ling",
+  "LING.unlockText": "Play a run to unlock this character."
+}

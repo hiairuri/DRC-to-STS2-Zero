@@ -1,0 +1,6 @@
+{
+  "PUPIL_MARK_POWER.title": "Pupil Mark",
+  "PUPIL_MARK_POWER.description": "A mark of the Kotodama: Mirror Pupil. Each time you play a card, roll 1d100; on a roll \u2264 stacks: the Mirror Image Summons 1, and if the card is an Attack, it is played again with the Mirror Image as the damage source. Then lose stacks.",
+  "MIRROR_SHATTER_POWER.title": "Shatter for You",
+  "MIRROR_SHATTER_POWER.description": "The Mirror Image absorbs all unblocked attack damage for you."
+}

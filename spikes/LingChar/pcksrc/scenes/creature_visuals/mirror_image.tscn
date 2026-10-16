@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0lingchar0008"]
+
+[ext_resource type="Script" uid="uid://cghtlla3sw0po" path="res://src/Core/Nodes/Combat/NCreatureVisuals.cs" id="1_p5sir"]
+[ext_resource type="SpineSkeletonDataResource" path="res://ling/animations/characters/mirror/ling_skel_data.tres" id="2_x0d2e"]
+
+[node name="Osty" type="Node2D"]
+script = ExtResource("1_p5sir")
+metadata/_edit_group_ = true
+
+[node name="Visuals" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("2_x0d2e")
+preview_skin = "Default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0
+unique_name_in_owner = true
+position = Vector2(16, -21)
+scale = Vector2(0.29, 0.29)
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -116.0
+offset_top = -204.0
+offset_right = 116.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-15, -109)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -218)
