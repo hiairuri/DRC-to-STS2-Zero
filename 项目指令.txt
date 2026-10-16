@@ -48,10 +48,9 @@ Spine 运行时 = 自研 spine-godot 4.2.43。
   崩溃用 sentry 转储定位：%APPDATA%\Roaming\SlayTheSpire2\sentry\<uuid>.run\__sentry-event + __sentry-breadcrumb1。
 
 【先读】
-1. D:\项目\dragonraja\项目状态交接.md（总览 + 关键事实库）
-2. D:\项目\dragonraja\光影层移植计划.md（决策史，新条目按文件末尾实时最大编号顺延）
-3. D:\项目\dragonraja\tools\toolchain_manifest.json（机读：分级清单 + 产物基线 + 路径表）
-4. D:\项目\dragonraja\sts2_work\note\silentfx\00_挖掘总报告.md（特效重建知识库入口，12_transplant.md 为落地清单）
+1. D:\项目\dragonraja\光影层移植计划.md（主日志：现状 + 定案知识库 + 待办；新条目按文件末尾实时最大编号顺延）
+2. D:\项目\dragonraja\tools\toolchain_manifest.json（机读：分级清单 + 产物基线 + 路径表）
+3. D:\项目\dragonraja\sts2_work\note\silentfx\00_挖掘总报告.md（特效重建知识库入口，12_transplant.md 为落地清单）
 
 【输出规范】
 - 全程中文；结论先行并附证据（文件:行号、资产路径、日志行），查不到就查工具而不是猜数值。
