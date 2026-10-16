@@ -2,7 +2,7 @@
 
 说明：项目设置里注入的【项目指令】为服务端下发、无法由 agent 直接改写；本文件是权威副本，与
 项目状态交接.md、光影层移植计划.md 同步维护。新会话若发现注入版与本文件冲突，以本文件为准。
-修订依据：主日志条目 60（LingChar / MirrorPupil 迁入项目主树，2026-10-16）；
+修订依据：主日志条目 60（两 spike 迁入主树）、61（特效全线废案 + 皮肤 mod 退役）、62（启动崩溃修复 + spike 源码树迁 sts2_work/source），均 2026-10-16；
           条目 61（特效全线废案定案 + 皮肤 mod 退役，2026-10-16 下午，用户三项确认）。
 
 【项目】龙族·零 → 杀戮尖塔2 Mod 移植（2026-10-16 条目 61 修订版）
@@ -51,7 +51,7 @@ Spine 运行时 = 自研 spine-godot 4.2.43。
 - 重跑构建前必须先 mv icon_import_scratch scratch_old_<ts>：否则 Mimosa safe-delete 钩子拦
   rmtree（count>50）会让脚本静默中断（2026-10-16 已复现）。
 - 产物基线 sha256（2026-10-16 条目 61 废案重建后刷新；重建应逐字节复现）：
-  LingChar.pck e56ba8ab…（22,921,936B / 110 条=102+8 存根；条目 62 spine 烘焙路径 remap 存根；包内校验 drc_dye/hitfx/attack_fx 零残留）
+  LingChar.pck 232624f8…（22,921,944B / 110 条=102+8 存根；条目 62 spine 烘焙路径 remap 存根；包内校验 drc_dye/hitfx/attack_fx 零残留）
   LingChar.dll 8a1780d0…（49,152B；DyeFramework/攻击/命中代码已剥离）
   LingChar.json dd76bd33…（472B，未变）
   历史基线（已作废，仅供归因）：pck 3ea68992…/44460388…、dll 17ca0e61…/ee52017e…、
